@@ -1,5 +1,5 @@
 // Scent Pick — service worker. Bump VERSION whenever any shell file changes (see README-dev.md).
-const VERSION = 'v20261017-2030';
+const VERSION = 'v20261017-2035';
 const CACHE = `scentpick-${VERSION}`;
 const DATA = './data/collection.json';
 const SHELL = [

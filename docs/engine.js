@@ -40,18 +40,42 @@ const OCC_W = {
   date:              { Evening: 1.0, 'Night Out': 0.9, Leisure: 0.2, Daily: 0.1, Business: 0.0, Sport: 0.0 },
   formal:            { Business: 1.0, Evening: 0.9, 'Night Out': 0.3, Daily: 0.2, Leisure: 0.05, Sport: 0.0 },
 };
+// The same occasion in daylight (lunch, day date, wedding, day drinking, pool party) maps to different categories.
+const OCC_W_DAY = {
+  office:     OCC_W.office,
+  casual:     { Leisure: 1.0, Daily: 0.9, Sport: 0.3, Evening: 0.1, 'Night Out': 0.05, Business: 0.2 },
+  beach:      OCC_W.beach,
+  outdoor:    OCC_W.outdoor,
+  bars:       { Leisure: 1.0, Daily: 0.5, Evening: 0.4, 'Night Out': 0.4, Sport: 0.2, Business: 0.1 },
+  clubbing:   { Leisure: 1.0, Sport: 0.55, 'Night Out': 0.55, Daily: 0.45, Evening: 0.3, Business: 0.0 },
+  houseparty: { Leisure: 1.0, Daily: 0.6, Sport: 0.4, Evening: 0.3, 'Night Out': 0.2, Business: 0.0 },
+  dinner:     { Daily: 1.0, Leisure: 0.85, Business: 0.6, Evening: 0.45, 'Night Out': 0.1, Sport: 0.0 },
+  date:       { Leisure: 1.0, Daily: 0.85, Evening: 0.45, 'Night Out': 0.2, Business: 0.25, Sport: 0.1 },
+  formal:     { Business: 1.0, Evening: 0.4, Daily: 0.4, Leisure: 0.2, 'Night Out': 0.1, Sport: 0.0 },
+};
+// Night mapping for occasions that are normally daytime but get picked for an evening
+const OCC_W_NIGHT_EXTRA = {
+  casual:     { Leisure: 1.0, Daily: 0.6, Evening: 0.5, 'Night Out': 0.4, Sport: 0.1, Business: 0.1 },
+  outdoor:    { Leisure: 1.0, Evening: 0.6, 'Night Out': 0.4, Daily: 0.4, Sport: 0.2, Business: 0.0 },
+  beach:      { Leisure: 1.0, Evening: 0.4, Sport: 0.6, Daily: 0.4, 'Night Out': 0.2, Business: 0.0 },
+};
+const blendW = (dayW, nightW, nightShare) => {
+  const out = {};
+  for (const c of new Set([...Object.keys(dayW), ...Object.keys(nightW)])) out[c] = (dayW[c] || 0) * (1 - nightShare) + (nightW[c] || 0) * nightShare;
+  return out;
+};
 const CAT_LABEL = { Business: 'business', Daily: 'everyday', Leisure: 'leisure', Sport: 'sport', Evening: 'evening', 'Night Out': 'night-out' };
 
 // Weights of the five fit components per occasion (sum to 1).
 const WEIGHTS = {
-  default:    { q: 0.28, o: 0.34, w: 0.20, t: 0.06, l: 0.12 },
-  office:     { q: 0.24, o: 0.38, w: 0.15, t: 0.08, l: 0.15 },
-  beach:      { q: 0.25, o: 0.32, w: 0.25, t: 0.05, l: 0.13 },
-  outdoor:    { q: 0.25, o: 0.32, w: 0.25, t: 0.05, l: 0.13 },
-  bars:       { q: 0.28, o: 0.34, w: 0.18, t: 0.08, l: 0.12 },
-  clubbing:   { q: 0.28, o: 0.34, w: 0.18, t: 0.08, l: 0.12 },
-  date:       { q: 0.32, o: 0.31, w: 0.17, t: 0.08, l: 0.12 },
-  formal:     { q: 0.28, o: 0.36, w: 0.16, t: 0.06, l: 0.14 },
+  default:    { q: 0.26, o: 0.32, w: 0.20, t: 0.10, l: 0.12 },
+  office:     { q: 0.23, o: 0.36, w: 0.15, t: 0.11, l: 0.15 },
+  beach:      { q: 0.24, o: 0.31, w: 0.25, t: 0.07, l: 0.13 },
+  outdoor:    { q: 0.24, o: 0.31, w: 0.25, t: 0.07, l: 0.13 },
+  bars:       { q: 0.26, o: 0.32, w: 0.18, t: 0.12, l: 0.12 },
+  clubbing:   { q: 0.26, o: 0.32, w: 0.18, t: 0.12, l: 0.12 },
+  date:       { q: 0.30, o: 0.29, w: 0.17, t: 0.12, l: 0.12 },
+  formal:     { q: 0.26, o: 0.34, w: 0.16, t: 0.10, l: 0.14 },
 };
 
 // Season-chart weights as a function of effective temperature (°C). Interpolated between anchors.
@@ -245,9 +269,10 @@ export function rank({ collection, occasionId, variant = null, window: win, weat
   const occ = occasionById(occasionId) || OCCASIONS[1];
   const key = variant && OCC_W[`${occasionId}:${variant}`] ? `${occasionId}:${variant}` : occasionId;
   const W = WEIGHTS[occasionId] || WEIGHTS.default;
-  const occW = OCC_W[key] || OCC_W.casual;
+  const occWNight = OCC_W[key] || OCC_W_NIGHT_EXTRA[occasionId] || OCC_W.casual;
   const hours = clamp(Math.max(win?.hours || 0, occ.duration || 4), 3, 10);
   const nightShare = weather?.nightShare != null ? weather.nightShare : (win ? nightShareOf(win) : 0.5);
+  const occW = blendW(OCC_W_DAY[occasionId] || occWNight, (variant && OCC_W[`${occasionId}:${variant}`]) || OCC_W_NIGHT_EXTRA[occasionId] || occWNight, nightShare);
   const outside = weather?.feelsMean ?? weather?.tempMean ?? 24;          // fallback: a typical Brisbane day
   const shownTemp = weather?.tempMean ?? outside;
   const Teff = occ.indoor * occ.indoorTemp + (1 - occ.indoor) * outside;  // what the scent will actually experience
@@ -265,7 +290,7 @@ export function rank({ collection, occasionId, variant = null, window: win, weat
     const seaPct = ev.charts.season?.pct || {}, seaVotes = ev.charts.season?.votes || 0;
     // occasion
     const occRaw = weighted(occPct, occW);
-    const occFit = shrinkFit(clamp((occRaw - 0.15) / 0.40), occVotes);
+    const occFit = shrinkFit(clamp((occRaw - 0.12) / 0.50), occVotes);
     // weather: season chart at the effective temperature, nudged by type (fresh vs heavy)
     const seaRaw = weighted(seaPct, sw);
     let typeMod = (ev.fresh - ev.heavy) * (heat - 0.5) * 0.5;
@@ -298,7 +323,7 @@ export function rank({ collection, occasionId, variant = null, window: win, weat
     hoursEst *= 1 + 0.06 * (sprays - 4);
     // bonuses specific to the brief
     let bonus = 0;
-    if (occasionId === 'date') bonus += 0.08 * clamp(ev.heavy * 1.3) * (1 - 0.6 * heat); // "meant to be sexy": warm/sweet, unless it's hot
+    if (occasionId === 'date') bonus += 0.08 * clamp(ev.heavy * 1.3) * (1 - 0.6 * heat) * (0.3 + 0.7 * nightShare); // "meant to be sexy": warm/sweet at night, unless it's hot
     if (occasionId === 'formal') bonus += 0.04 * ((ev.charts.audience_style?.pct?.Classic || 0) / 100);
     if (occasionId === 'beach') bonus += 0.08 * ev.fresh;
     if (occasionId === 'outdoor') bonus += 0.04 * ev.fresh;
