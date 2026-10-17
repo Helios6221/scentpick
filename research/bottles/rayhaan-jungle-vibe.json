@@ -1,0 +1,153 @@
+{
+ "id": "rayhaan-jungle-vibe",
+ "userName": "Rayhaan Jungle Vibe",
+ "identity": {
+  "house": "Rayhaan",
+  "name": "Jungle Vibe",
+  "year": 2025,
+  "concentration": null,
+  "genderLabel": "for women and men",
+  "matchCheck": "Searched 'Jungle Vibe' and found exact match on Parfumo: Rayhaan Jungle Vibe (2025). House, name, and year all match the bottle ID and user wording."
+ },
+ "candidates": [],
+ "ambiguity": null,
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/rayhaan/jungle-vibe",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/rayhaan/jungle-vibe",
+   "fetched": "2026-10-17",
+   "title": "Jungle Vibe by Rayhaan » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Jungle Vibe Rayhaan 2025",
+   "meta_description": "Jungle Vibe Rayhaan:  Popular  green-fresh new Fragrance Release from 2025 ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "Rayhaan",
+   "name": "Jungle Vibe",
+   "year": 2025,
+   "concentration_hint": null,
+   "gender_label": "for women and men",
+   "overall": {
+    "avg": 7.9,
+    "votes": 147
+   },
+   "ratings": {
+    "scent": {
+     "avg": 7.9,
+     "votes": 147
+    },
+    "longevity": {
+     "avg": 7.4,
+     "votes": 128
+    },
+    "sillage": {
+     "avg": 7.1,
+     "votes": 128
+    },
+    "bottle": {
+     "avg": 7.6,
+     "votes": 126
+    },
+    "value": {
+     "avg": 8.8,
+     "votes": 116
+    }
+   },
+   "main_accords": [
+    {
+     "accord": "Green",
+     "size": "l"
+    },
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Citrus",
+     "size": "m"
+    },
+    {
+     "accord": "Fruity",
+     "size": "s"
+    },
+    {
+     "accord": "Woody",
+     "size": "s"
+    }
+   ],
+   "notes": {
+    "flat": [
+     "Green notes",
+     "Bergamot",
+     "Fig",
+     "Grapefruit",
+     "Citrus notes",
+     "Sandalwood"
+    ]
+   },
+   "counts": {
+    "reviews": 11,
+    "statements": 42,
+    "photos": 4
+   },
+   "submitted": {
+    "by": "Sentique ",
+    "updated": "13/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Sweet": 6,
+      "Aquatic": 10,
+      "Fruity": 11,
+      "Woody": 11,
+      "Citrus": 16,
+      "Green": 24,
+      "Fresh": 23
+     },
+     "votes": 152
+    },
+    "occasion": {
+     "pct": {
+      "Evening": 7,
+      "Night Out": 9,
+      "Sport": 15,
+      "Business": 18,
+      "Daily": 26,
+      "Leisure": 25
+     },
+     "votes": 136
+    },
+    "season": {
+     "pct": {
+      "Winter": 4,
+      "Fall": 13,
+      "Summer": 40,
+      "Spring": 42
+     },
+     "votes": 89
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 57,
+      "Feminine": 43,
+      "Modern": 91,
+      "Classic": 9
+     },
+     "votes": 94
+    }
+   },
+   "chart_raw_votes_text": null,
+   "chart_raw_text": "Type Sweet 6% Aquatic 10% Fruity 11% Woody 11% Citrus 16% Green 24% Fresh 23% 152 Votes Occasion Evening 7% Night Out 9% Sport 15% Business 18% Daily 26% Leisure 25% 136 Votes Season Winter 4% Fall 13% Summer 40% Spring 42% 89 Votes Audience & Style Masculine 57% Feminine 43% Modern 91% Classic 9% 94 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "A green-fresh fragrance with pronounced citrus elements. The composition combines bergamot, fig, and grapefruit with woody and green undertones, creating a balanced fresh profile centered on green and fresh accords.",
+ "flags": [
+  "no pyramid (flat notes only)",
+  "concentration_hint null"
+ ],
+ "issues": "none"
+}

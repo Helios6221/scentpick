@@ -1,0 +1,157 @@
+{
+ "id": "rayhaan-obsidian",
+ "userName": "Rayhaan Obsidian",
+ "identity": {
+  "house": "Rayhaan",
+  "name": "Obsidian",
+  "year": 2025,
+  "concentration": null,
+  "genderLabel": "for men",
+  "matchCheck": "House and name match search result. Year 2025 confirmed on Parfumo. No edition/concentration specified."
+ },
+ "candidates": [
+  {
+   "brand": "Rayhaan",
+   "name": "Obsidian",
+   "year": 2025,
+   "url": "https://www.parfumo.com/Perfumes/rayhaan/obsidian",
+   "scent_votes": 206
+  }
+ ],
+ "ambiguity": null,
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/rayhaan/obsidian",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/rayhaan/obsidian",
+   "fetched": "2026-10-17",
+   "title": "Obsidian by Rayhaan » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Obsidian Rayhaan 2025",
+   "meta_description": "Rayhaan Collection | Obsidian Rayhaan:  Popular  powdery-leathery new Fragrance Release from 2025 ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "Rayhaan",
+   "name": "Obsidian",
+   "year": 2025,
+   "concentration_hint": null,
+   "gender_label": "for men",
+   "overall": {
+    "avg": 8.3,
+    "votes": 206
+   },
+   "ratings": {
+    "scent": {
+     "avg": 8.3,
+     "votes": 206
+    },
+    "longevity": {
+     "avg": 8.0,
+     "votes": 191
+    },
+    "sillage": {
+     "avg": 7.8,
+     "votes": 190
+    },
+    "bottle": {
+     "avg": 8.1,
+     "votes": 190
+    },
+    "value": {
+     "avg": 8.9,
+     "votes": 182
+    }
+   },
+   "main_accords": [
+    {
+     "accord": "Powdery",
+     "size": "l"
+    },
+    {
+     "accord": "Leathery",
+     "size": "l"
+    },
+    {
+     "accord": "Sweet",
+     "size": "m"
+    },
+    {
+     "accord": "Woody",
+     "size": "m"
+    },
+    {
+     "accord": "Floral",
+     "size": "s"
+    }
+   ],
+   "notes": {
+    "flat": [
+     "Iris",
+     "Leather",
+     "Rose",
+     "Oud"
+    ]
+   },
+   "counts": {
+    "reviews": 14,
+    "statements": 49,
+    "photos": 4
+   },
+   "submitted": {
+    "by": "Skrwail ",
+    "updated": "08/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Creamy": 6,
+      "Spicy": 8,
+      "Floral": 12,
+      "Woody": 15,
+      "Powdery": 23,
+      "Leathery": 19,
+      "Sweet": 17
+     },
+     "votes": 155
+    },
+    "occasion": {
+     "pct": {
+      "Leisure": 11,
+      "Daily": 11,
+      "Business": 15,
+      "Evening": 32,
+      "Night Out": 31
+     },
+     "votes": 119
+    },
+    "season": {
+     "pct": {
+      "Summer": 5,
+      "Spring": 24,
+      "Fall": 35,
+      "Winter": 36
+     },
+     "votes": 105
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 89,
+      "Feminine": 11,
+      "Modern": 60,
+      "Classic": 40
+     },
+     "votes": 86
+    }
+   },
+   "chart_raw_text": "Type Creamy 6% Spicy 8% Floral 12% Woody 15% Powdery 23% Leathery 19% Sweet 17% 155 Votes Occasion Leisure 11% Daily 11% Business 15% Evening 32% Night Out 31% 119 Votes Season Summer 5% Spring 24% Fall 35% Winter 36% 105 Votes Audience & Style Masculine 89% Feminine 11% Modern 60% Classic 40% 86 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "Powdery and leathery fragrance with sweet and woody undertones. Notes include iris, leather, rose, and oud.",
+ "flags": [
+  "concentration_hint: null",
+  "notes: flat structure (no pyramid with top/heart/base)"
+ ],
+ "issues": "none"
+}

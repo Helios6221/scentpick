@@ -1,0 +1,42 @@
+{
+ "fragrance-world-bois-de-bois": {
+  "displayHouse": "Fragrance World",
+  "displayName": "Bois de Bois",
+  "concentration": "Eau de Parfum",
+  "scentSummary": "Peppery, herbal woody opening (pepper, basil) over vetiver and dry woods with a cool minty edge, per retailer note lists. No community data was reachable yet (released late 2025).",
+  "manual": {
+   "seasons": [
+    "hot",
+    "warm",
+    "mild"
+   ],
+   "occasions": [
+    "casual",
+    "office",
+    "outdoor"
+   ],
+   "strength": "moderate",
+   "longevity": "medium",
+   "source": "Suggested from retailer note lists (pepper, basil, vetiver, mint, woods) — not community data. Edit these tags in Collection."
+  }
+ },
+ "maison-alhambra-eternal-touch": {
+  "aka": "Tobacco Touch",
+  "notesOnFit": "Parfumo lists this bottle as \"Eternal Touch / Tobacco Touch\": reviewers say it is the earlier Tobacco Touch re-bottled, so the 73 ratings pool both names."
+ },
+ "french-avenue-liquid-brun": {
+  "notesOnFit": "Parfumo also lists a 2025 Limited Edition (separate page, fewer votes). These numbers are for the 2024 original."
+ },
+ "french-avenue-vulcan-feu": {
+  "displayName": "Vulcan Feu",
+  "notesOnFit": "Parfumo files this as \"Feu\" in French Avenue's Vulcan collection."
+ },
+ "arabiyat-prestige-marwa-extrait": {
+  "displayName": "Marwa Extrait",
+  "notesOnFit": "The Extrait (2026) has its own Parfumo page; the 2025 Eau de Parfum is a separate, much more voted release and is not used here."
+ },
+ "aromatix-french-avenue-forbidden-fruit": {
+  "displayHouse": "Aromatix × French Avenue",
+  "notesOnFit": "Parfumo files it under French Avenue in the Aromatix collection."
+ }
+}

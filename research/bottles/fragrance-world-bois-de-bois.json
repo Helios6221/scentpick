@@ -1,0 +1,56 @@
+{
+  "id": "fragrance-world-bois-de-bois",
+  "userName": "Fragrance World Bois de Bois",
+  "identity": {
+    "house": "Fragrance World",
+    "name": "Bois de Bois",
+    "year": 2025,
+    "concentration": "Eau de Parfum",
+    "genderLabel": "Men's (one retailer describes it as unisex)",
+    "matchCheck": "Confirmed via web search (not memory): 'Bois de Bois' IS a real, current Fragrance World release, distinct from 'Le Bois Blanc'/'Le Bois Noir' which the earlier Parfumo-only search had surfaced as near-miss candidates. Multiple independent retailers sell 'Fragrance World Bois De Bois EDP 100ml' and describe it consistently as launched December 2025, a men's woody-aromatic EDP, '100ml', sold ~EUR 34.90-39. A Fragrantica listing page also exists at https://www.fragrantica.com/perfume/Fragrance-World/Bois-de-Bois-123015.html (id 123015), found via web search, confirming the name/house pairing independently of retailer copy. Sources: https://www.ebay.com/itm/277893838629 ; https://www.ebay.com/itm/318002055791 ; https://www.jomashop.com/fragrance-world-mens-bois-de-bois-edp-spray-3-4-oz-fragrances-6298042000582.html ; https://zaoud.it/products/fragrance-world-bois-de-bois-edp ; https://royalsperfume.com/products/bois-de-bois-by-fragrance-world-edp-100ml ; https://flora-parfums.com/en/product/bois-de-bois/ ; https://www.french-avenue-parfum.com/en/product-2/wood-fragrance/ ; https://www.parfumerie-de-dubai.com/en/product-2/wood-wood-fragrance-world/ ; https://www.amazon.com/Fragrance-World-Bois-EDP-100ml/dp/B0G87ZLWRX ; https://www.orientaldream.it/en/fragrance-world/fragrance-world-bois-de-bois-edp-100ml.html ; https://www.fragrantica.com/perfume/Fragrance-World/Bois-de-Bois-123015.html"
+  },
+  "candidates": [
+    {
+      "brand": "Fragrance World",
+      "name": "Bois de Bois",
+      "year": 2025,
+      "concentration": "Eau de Parfum",
+      "url": "https://www.fragrantica.com/perfume/Fragrance-World/Bois-de-Bois-123015.html",
+      "note": "Best match. Fragrantica page exists (id 123015) per web search index, but the page itself could not be read (Cloudflare block on WebFetch, see fragrantica field below)."
+    },
+    {
+      "brand": "Fragrance World",
+      "name": "Le Bois Blanc",
+      "year": null,
+      "url": "https://www.parfumo.com/Perfumes/fragrance-world/le-bois-blanc",
+      "scent_votes": 7,
+      "note": "Earlier near-miss candidate from initial Parfumo-only search; not the same fragrance as 'Bois de Bois'. Kept for reference only."
+    },
+    {
+      "brand": "Fragrance World",
+      "name": "Le Bois Noir",
+      "year": null,
+      "url": "https://www.parfumo.com/Perfumes/fragrance-world/le-bois-noir",
+      "scent_votes": 2,
+      "note": "Earlier near-miss candidate from initial Parfumo-only search; not the same fragrance as 'Bois de Bois'. Kept for reference only."
+    }
+  ],
+  "ambiguity": "Name is NOT a misremembering: 'Bois de Bois' is a real, distinct, recently-launched (Dec 2025) Fragrance World SKU, separate from 'Le Bois Blanc'/'Le Bois Noir' (which simply don't come up under this search phrasing on Parfumo because Parfumo likely hasn't added 'Bois de Bois' yet, or it is blocked from crawling it right now - see flags). Minor unresolved points for the user: (1) gender label varies by retailer - most call it a men's EDP, one retailer description calls it unisex; (2) one retailer (french-avenue-parfum.com, via search snippet) describes it as 'a great alternative to the famous Bois Imperial' (a known Lattafa release), suggesting this is marketed as an inspired-by/clone-style fragrance, but no retailer explicitly states a 1:1 clone target - treat that as a marketing claim, not a verified clone relationship.",
+  "parfumo": null,
+  "fragrantica": null,
+  "scentSummary": {
+    "method": "websearch (retailer-copy aggregation, unverified against primary Fragrantica/Parfumo note lists)",
+    "top": ["Pepper", "Basil"],
+    "heart": ["Vetiver", "Woody Notes"],
+    "base": ["Mint", "Akigala Wood"],
+    "description": "Described consistently across multiple independent retailer listings as a woody-aromatic men's EDP: a spicy-fresh opening of pepper and basil, a warm earthy heart of vetiver and woody notes, and a base combining mint freshness with Akigala wood. Marketed for daily wear and formal occasions; ~8-hour claimed longevity per one retailer.",
+    "note": "These notes come from retailer product-description text surfaced by WebSearch (ebay, jomashop, zaoud.it, royalsperfume.com, flora-parfums.com, french-avenue-parfum.com, parfumerie-de-dubai.com), not from a Fragrantica or Parfumo note list, since both of those pages could not be fetched (see flags/issues)."
+  },
+  "flags": [
+    "Parfumo: both 'search' and a direct guessed page URL (https://www.parfumo.com/Perfumes/Fragrance-World/Bois-de-Bois) returned HTTP 403 with title 'Just a moment...' (Cloudflare bot-check), not a 'not found' result. Parfumo tool output could not be obtained this session; identity/notes should NOT be treated as Parfumo-sourced.",
+    "Fragrantica: a listing page clearly exists (https://www.fragrantica.com/perfume/Fragrance-World/Bois-de-Bois-123015.html, surfaced twice by independent WebSearch queries, plus a beta.fragrantica.com mirror), but ONE WebFetch of fragrantica.com and one of beta.fragrantica.com both returned HTTP 403 (no readable page content, consistent with a Cloudflare block). Per instructions, this was recorded and not retried further. No overall rating, vote counts, longevity/sillage/gender/price-value votes, or season/day-night percentages were obtained - do not invent any of these numbers.",
+    "All note/description data in scentSummary is retailer-copy via WebSearch, method-labelled accordingly; it has not been cross-checked against Fragrantica's or Parfumo's own note lists because neither was accessible this session.",
+    "Launched December 2025 per consistent retailer copy - this is a very recent SKU, which is also the most likely reason Parfumo may not yet have indexed it (separately from the Cloudflare block observed)."
+  ],
+  "issues": "RESOLVED (partially): 'Fragrance World Bois de Bois' is a real, current fragrance - not a confusion with 'Le Bois Blanc'/'Le Bois Noir'. It is a men's EDP launched Dec 2025, confirmed by 10+ independent retailer listings and the existence of a Fragrantica catalog page (Fragrance-World/Bois-de-Bois-123015). However, BOTH Parfumo and Fragrantica blocked automated access this session (Cloudflare 'Just a moment' / 403 on every attempt: Parfumo search x2, Parfumo direct page guess x1, Fragrantica page x1, Fragrantica beta mirror x1), so no aggregated community rating/vote data (overall score, vote counts, longevity/sillage/gender/price-value breakdowns, season/day-night percentages) could be retrieved or verified. The scentSummary notes are therefore sourced from retailer product pages via WebSearch only, not from Fragrantica/Parfumo's own community-curated note lists. Recommend re-running the Parfumo tool and a Fragrantica WebFetch later (Cloudflare blocks are often transient/IP-based) to backfill parfumo/fragrantica fields with real vote data."
+}

@@ -1,0 +1,172 @@
+{
+ "id": "arabiyat-prestige-marwa-extrait",
+ "userName": "Arabiyat Prestige Marwa Extrait",
+ "identity": {
+  "house": "Arabiyat Prestige",
+  "name": "Marwa (Extrait)",
+  "year": 2026,
+  "concentration": "Extrait",
+  "genderLabel": "for men",
+  "matchCheck": "Search found both Marwa Eau de Parfum (2025, 1385 votes) and Marwa Extrait (2026, 106 votes). Selected Extrait per user request. House and name match exactly; concentration (Extrait) matches."
+ },
+ "candidates": [
+  {
+   "brand": "Arabiyat Prestige",
+   "name": "Marwa Eau de Parfum",
+   "year": 2025,
+   "url": "https://www.parfumo.com/Perfumes/arabiyat-prestige/marwa-eau-de-parfum",
+   "scent_votes": 1385
+  },
+  {
+   "brand": "Arabiyat Prestige",
+   "name": "Marwa Extrait",
+   "year": 2026,
+   "url": "https://www.parfumo.com/Perfumes/arabiyat-prestige/marwa-extrait",
+   "scent_votes": 106
+  }
+ ],
+ "ambiguity": "Two Arabiyat Prestige Marwa releases exist: EDP (2025, 1385 votes) and Extrait (2026, 106 votes). User request specified Extrait concentration, so the 2026 Extrait is the correct bottle.",
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/arabiyat-prestige/marwa-extrait",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/arabiyat-prestige/marwa-extrait",
+   "fetched": "2026-10-17",
+   "title": "Marwa / مروة by Arabiyat Prestige (Extrait) » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Marwa مروة Arabiyat Prestige 2026 Extrait",
+   "meta_description": "Marwa  / مروة Arabiyat Prestige:  Popular  fresh-citrusy new Fragrance Release from 2026 ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "Arabiyat Prestige",
+   "name": "Marwa (Extrait)",
+   "year": 2026,
+   "concentration_hint": "Extrait",
+   "gender_label": "for men",
+   "overall": {
+    "avg": 8.4,
+    "votes": 114
+   },
+   "ratings": {
+    "scent": {
+     "avg": 8.4,
+     "votes": 114
+    },
+    "longevity": {
+     "avg": 7.7,
+     "votes": 106
+    },
+    "sillage": {
+     "avg": 7.4,
+     "votes": 107
+    },
+    "bottle": {
+     "avg": 8.4,
+     "votes": 108
+    },
+    "value": {
+     "avg": 8.2,
+     "votes": 102
+    }
+   },
+   "main_accords": [
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Citrus",
+     "size": "l"
+    },
+    {
+     "accord": "Spicy",
+     "size": "l"
+    },
+    {
+     "accord": "Floral",
+     "size": "s"
+    },
+    {
+     "accord": "Oriental",
+     "size": "s"
+    }
+   ],
+   "notes": {
+    "top": [
+     "Calabrian bergamot",
+     "Sicilian orange",
+     "Lemon"
+    ],
+    "heart": [
+     "Ceylonese cinnamon",
+     "Nigerian ginger",
+     "Tunisian neroli"
+    ],
+    "base": [
+     "Ambroxan",
+     "Chinese black tea",
+     "Frankincense",
+     "Gaiac wood"
+    ]
+   },
+   "counts": {
+    "reviews": 16,
+    "statements": 21,
+    "photos": 3
+   },
+   "submitted": {
+    "by": "EaZyBnA ",
+    "updated": "11/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Oriental": 6,
+      "Powdery": 6,
+      "Floral": 7,
+      "Spicy": 22,
+      "Fresh": 31,
+      "Citrus": 28
+     },
+     "votes": 54
+    },
+    "occasion": {
+     "pct": {
+      "Evening": 11,
+      "Night Out": 11,
+      "Sport": 15,
+      "Business": 20,
+      "Daily": 23,
+      "Leisure": 20
+     },
+     "votes": 71
+    },
+    "season": {
+     "pct": {
+      "Winter": 13,
+      "Fall": 17,
+      "Spring": 34,
+      "Summer": 36
+     },
+     "votes": 47
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 76,
+      "Feminine": 24,
+      "Modern": 92,
+      "Classic": 8
+     },
+     "votes": 33
+    }
+   },
+   "chart_raw_votes_text": null,
+   "chart_raw_text": "Type Oriental 6% Powdery 6% Floral 7% Spicy 22% Fresh 31% Citrus 28% 54 Votes Occasion Evening 11% Night Out 11% Sport 15% Business 20% Daily 23% Leisure 20% 71 Votes Season Winter 13% Fall 17% Spring 34% Summer 36% 47 Votes Audience & Style Masculine 76% Feminine 24% Modern 92% Classic 8% 33 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "Fresh and citrus-dominated composition led by bergamot and orange, warmed by spiced cinnamon and ginger in the heart, settling to a woody amber base with tea and frankincense.",
+ "flags": [],
+ "issues": "small drift between search-listing scent votes (106) and page votes (114), within tolerance"
+}

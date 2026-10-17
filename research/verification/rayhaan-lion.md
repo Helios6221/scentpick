@@ -1,0 +1,19 @@
+# rayhaan-lion — VERDICT: PASS
+Checked: 2026-10-17 19:38 AEST, re-fetched https://www.parfumo.com/Perfumes/rayhaan/lion — the fresh fetch returned HTTP 403 Cloudflare challenge (title "Just a moment..."), tried once only per addendum. Verification was therefore done against the SAVED source: raw/rayhaan-lion.page.html (110553 bytes) + raw/rayhaan-lion.chart.html (10244 bytes), both mtime 17 Oct 19:24. Method: offline re-parse with the current parser (`parfumo_fetch.py parse raw/rayhaan-lion`) plus a tool-independent tag-stripped text check and raw-HTML greps (title, h1, JSON-LD breadcrumb, s-circle classes). The useless 403 challenge page the fetch saved as raw/rayhaan-lion.verify.page.html was deleted so it cannot be mistaken for a real fetch.
+
+## Identity: PASS — `<title>` "Lion by Rayhaan » Reviews & Perfume Facts"; `<h1>` "Lion Rayhaan 2024"; JSON-LD breadcrumb Home > Brands > Rayhaan > Lion; page text "A popular perfume by Rayhaan for men, released in 2024" (genderLabel "for men" is correct). Parfumo search is blocked (HTTP 403) so step 5 could not be re-run; the researcher's search recorded a single result. Independent check for a second "Lion": the Rayhaan brand module rendered on all six saved Rayhaan pages lists 24 distinct releases (Adonis Icarus, Aquatica, Azul, Cedrus Blanc, Crimson, Equinox, Italia, Jungle Vibe, Lion, Nava Sol, Nocturno Elixir, Obsidian, Pacific Aloha, Pacific Aura, Pharaoh, Rayhaan Elixir, Terra, Tiger Cal Cologne Edition, Tonquin Giza, Tropical Vibe, Valhalla X Legion, Vanilla Vibe, Vantage, Wolf) and exactly one is "Lion" — no Extrait / Elixir / edition variant. Caveat: that module is "new releases / popular", not guaranteed to be the full catalogue. "Rayhaan Collection" in the meta description is only the collection label inside the brand (page: "The fragrance is part of the Rayhaan Collection collection"), not a different release. User wording "Rayhaan Lion" carries no edition/concentration words.
+
+## Numbers: PASS — every value traced to the saved page/chart text:
+- overall 8.5 / 208 (page: "8.5 208 Ratings") OK; scent 8.5/208 OK; longevity 8.5/197 OK; sillage 8.3/197 OK; bottle 8.2/197 OK; value 9.2/195 OK
+- counts reviews 10 / statements 29 / photos 5 OK; submitted Skrwail, updated 11/10/2026 OK; year 2024 OK; brand Rayhaan OK; name Lion OK
+- Type chart: Floral 5, Powdery 6, Creamy 7, Synthetic 7, Oriental 9, Fresh 10, Sweet 25, Spicy 17, Fruity 14 — 156 votes OK
+- Occasion: Business 11, Daily 16, Leisure 20, Night Out 27, Evening 26 — 127 votes OK
+- Season: Summer 8, Spring 25, Winter 32, Fall 35 — 111 votes OK
+- Audience & Style: Masculine 98, Feminine 2, Modern 91, Classic 9 — 74 votes OK
+- Only discrepancy: `candidates[0].scent_votes: json=207 page=208 → no action` (search-listing snapshot drift of 1; search is blocked so it cannot be re-confirmed; parfumo.data already carries the correct 208). Not a fail.
+
+## Notes: PASS — Main accords Sweet (l), Spicy (l), Fruity (m), Fresh (s), Oriental (s) confirmed from the s-circle_l / s-circle_m / s-circle_s classes in the raw HTML. Pyramid: Top Pear, Lavender, Mint, Bergamot; Heart Cinnamon, Clary sage, Cumin; Base Vanilla, Amber, Patchouli, Cedar — grouping and order match the page exactly.
+
+## Flags/summary discipline: PASS — nothing fixed. Smallest vote count is 74 (audience chart), so no thin-data flag is required; the "concentration_hint null" flag is appropriate. scentSummary uses only accords (sweet, spicy, fruity), a type-chart term (creamy) and pyramid notes; it contains no numbers and no performance or comparison claims ("warm" for the cinnamon/cumin heart is an editorial adjective, not a performance/comparison claim — left as is). fragrantica is null. JSON not modified.
+
+## Open issues for orchestrator: none. (Note only: verified against the saved source rather than a fresh fetch because Parfumo is serving a Cloudflare challenge; search could not be re-run.)

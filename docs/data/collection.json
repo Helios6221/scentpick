@@ -1,0 +1,1705 @@
+{
+ "generated": "2026-10-17",
+ "bottles": [
+  {
+   "id": "afnan-supremacy-collectors-edition",
+   "name": "Supremacy Collector's Edition",
+   "house": "Afnan Perfumes",
+   "userName": "Afnan Supremacy Collector's Edition",
+   "year": 2024,
+   "concentration": null,
+   "genderLabel": "for men",
+   "notes": {
+    "top": [
+     "Pineapple",
+     "Apple",
+     "Bergamot",
+     "White blossoms"
+    ],
+    "heart": [
+     "Birch",
+     "Amber",
+     "Orange blossom"
+    ],
+    "base": [
+     "Ambergris",
+     "Musk",
+     "Oakmoss"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Fruity",
+     "size": "l"
+    },
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Citrus",
+     "size": "m"
+    },
+    {
+     "accord": "Woody",
+     "size": "m"
+    },
+    {
+     "accord": "Sweet",
+     "size": "m"
+    }
+   ],
+   "scentSummary": "A fruity and fresh fragrance opening with pineapple, apple, and bergamot, flowing to amber and orange blossom in the heart, grounded by ambergris, musk, and oakmoss with subtle woody undertones.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/Afnan_Perfumes/supremacy-collector-s-edition",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 8.2,
+      "votes": 1390
+     },
+     "longevity": {
+      "avg": 8.4,
+      "votes": 1295
+     },
+     "sillage": {
+      "avg": 8.2,
+      "votes": 1293
+     },
+     "bottle": {
+      "avg": 8.1,
+      "votes": 1270
+     },
+     "value": {
+      "avg": 9.0,
+      "votes": 1262
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Floral": 5,
+       "Smoky": 5,
+       "Spicy": 5,
+       "Sweet": 12,
+       "Woody": 14,
+       "Fruity": 23,
+       "Fresh": 18,
+       "Citrus": 16
+      },
+      "votes": 1039
+     },
+     "occasion": {
+      "pct": {
+       "Sport": 9,
+       "Night Out": 14,
+       "Evening": 15,
+       "Business": 18,
+       "Daily": 24,
+       "Leisure": 20
+      },
+      "votes": 1051
+     },
+     "season": {
+      "pct": {
+       "Winter": 17,
+       "Fall": 27,
+       "Spring": 29,
+       "Summer": 27
+      },
+      "votes": 867
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 97,
+       "Feminine": 3,
+       "Modern": 81,
+       "Classic": 19
+      },
+      "votes": 509
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "concentration_hint: null"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": null,
+   "aka": null
+  },
+  {
+   "id": "arabiyat-prestige-marwa-extrait",
+   "name": "Marwa Extrait",
+   "house": "Arabiyat Prestige",
+   "userName": "Arabiyat Prestige Marwa Extrait",
+   "year": 2026,
+   "concentration": "Extrait",
+   "genderLabel": "for men",
+   "notes": {
+    "top": [
+     "Calabrian bergamot",
+     "Sicilian orange",
+     "Lemon"
+    ],
+    "heart": [
+     "Ceylonese cinnamon",
+     "Nigerian ginger",
+     "Tunisian neroli"
+    ],
+    "base": [
+     "Ambroxan",
+     "Chinese black tea",
+     "Frankincense",
+     "Gaiac wood"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Citrus",
+     "size": "l"
+    },
+    {
+     "accord": "Spicy",
+     "size": "l"
+    },
+    {
+     "accord": "Floral",
+     "size": "s"
+    },
+    {
+     "accord": "Oriental",
+     "size": "s"
+    }
+   ],
+   "scentSummary": "Fresh and citrus-dominated composition led by bergamot and orange, warmed by spiced cinnamon and ginger in the heart, settling to a woody amber base with tea and frankincense.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/arabiyat-prestige/marwa-extrait",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 8.4,
+      "votes": 114
+     },
+     "longevity": {
+      "avg": 7.7,
+      "votes": 106
+     },
+     "sillage": {
+      "avg": 7.4,
+      "votes": 107
+     },
+     "bottle": {
+      "avg": 8.4,
+      "votes": 108
+     },
+     "value": {
+      "avg": 8.2,
+      "votes": 102
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Oriental": 6,
+       "Powdery": 6,
+       "Floral": 7,
+       "Spicy": 22,
+       "Fresh": 31,
+       "Citrus": 28
+      },
+      "votes": 54
+     },
+     "occasion": {
+      "pct": {
+       "Evening": 11,
+       "Night Out": 11,
+       "Sport": 15,
+       "Business": 20,
+       "Daily": 23,
+       "Leisure": 20
+      },
+      "votes": 71
+     },
+     "season": {
+      "pct": {
+       "Winter": 13,
+       "Fall": 17,
+       "Spring": 34,
+       "Summer": 36
+      },
+      "votes": 47
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 76,
+       "Feminine": 24,
+       "Modern": 92,
+       "Classic": 8
+      },
+      "votes": 33
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": "The Extrait (2026) has its own Parfumo page; the 2025 Eau de Parfum is a separate, much more voted release and is not used here.",
+   "aka": null
+  },
+  {
+   "id": "aromatix-french-avenue-forbidden-fruit",
+   "name": "Forbidden Fruit",
+   "house": "Aromatix × French Avenue",
+   "userName": "Aromatix × French Avenue Forbidden Fruit",
+   "year": 2025,
+   "concentration": null,
+   "genderLabel": "for women and men",
+   "notes": {
+    "top": [
+     "Blood orange",
+     "Bergamot",
+     "Cardamom"
+    ],
+    "heart": [
+     "Margarita",
+     "Peach",
+     "Red apple",
+     "Rose"
+    ],
+    "base": [
+     "Amber",
+     "Benzoin",
+     "Cedarwood",
+     "Musk",
+     "Sandalwood",
+     "Vanilla absolute"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Fruity",
+     "size": "l"
+    },
+    {
+     "accord": "Sweet",
+     "size": "l"
+    },
+    {
+     "accord": "Floral",
+     "size": "m"
+    },
+    {
+     "accord": "Citrus",
+     "size": "m"
+    },
+    {
+     "accord": "Fresh",
+     "size": "s"
+    }
+   ],
+   "scentSummary": "A fruity-sweet fragrance opening with blood orange and bergamot, developing into ripe peach and red apple with floral rose and margarita notes, settling into a warm base of amber, vanilla, and cedarwood with musks. Balances vivid fruits against soft florals and subtle citrus throughout.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/french-avenue/forbidden-fruit",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 7.8,
+      "votes": 121
+     },
+     "longevity": {
+      "avg": 7.9,
+      "votes": 110
+     },
+     "sillage": {
+      "avg": 7.8,
+      "votes": 108
+     },
+     "bottle": {
+      "avg": 8.4,
+      "votes": 105
+     },
+     "value": {
+      "avg": 8.5,
+      "votes": 98
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Spicy": 6,
+       "Synthetic": 7,
+       "Fresh": 10,
+       "Floral": 13,
+       "Citrus": 13,
+       "Fruity": 26,
+       "Sweet": 24
+      },
+      "votes": 99
+     },
+     "occasion": {
+      "pct": {
+       "Business": 10,
+       "Daily": 18,
+       "Night Out": 22,
+       "Leisure": 26,
+       "Evening": 24
+      },
+      "votes": 78
+     },
+     "season": {
+      "pct": {
+       "Winter": 10,
+       "Fall": 27,
+       "Spring": 33,
+       "Summer": 30
+      },
+      "votes": 70
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 50,
+       "Feminine": 50,
+       "Modern": 96,
+       "Classic": 4
+      },
+      "votes": 59
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "concentration_hint is null"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": "Parfumo files it under French Avenue in the Aromatix collection.",
+   "aka": null
+  },
+  {
+   "id": "bujairami-vibration",
+   "name": "Vibration",
+   "house": "Bujairami",
+   "userName": "Bujairami Vibration",
+   "year": 2026,
+   "concentration": null,
+   "genderLabel": "for women and men",
+   "notes": {
+    "top": [
+     "Grapefruit",
+     "Bergamot",
+     "Jasmine",
+     "Magnolia"
+    ],
+    "heart": [
+     "Ginger",
+     "Herbaceous notes",
+     "Powdery notes"
+    ],
+    "base": [
+     "Amber",
+     "Cedar",
+     "Musk",
+     "Orris root",
+     "Patchouli"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Citrus",
+     "size": "l"
+    },
+    {
+     "accord": "Fruity",
+     "size": "l"
+    },
+    {
+     "accord": "Green",
+     "size": "m"
+    },
+    {
+     "accord": "Floral",
+     "size": "s"
+    }
+   ],
+   "scentSummary": "A fresh-citrus fragrance with bright grapefruit and bergamot leading into an herbal, gingered heart, finishing with amber, cedar and musk. Primary accords are fresh citrus and fruity notes with subtle green and floral undertones.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/bujairami/vibration",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 8.9,
+      "votes": 47
+     },
+     "longevity": {
+      "avg": 8.1,
+      "votes": 43
+     },
+     "sillage": {
+      "avg": 8.2,
+      "votes": 43
+     },
+     "bottle": {
+      "avg": 8.0,
+      "votes": 43
+     },
+     "value": {
+      "avg": 9.0,
+      "votes": 43
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Floral": 11,
+       "Green": 14,
+       "Fruity": 18,
+       "Fresh": 32,
+       "Citrus": 25
+      },
+      "votes": 28
+     },
+     "occasion": {
+      "pct": {
+       "Night Out": 6,
+       "Evening": 9,
+       "Sport": 14,
+       "Business": 20,
+       "Daily": 29,
+       "Leisure": 23
+      },
+      "votes": 35
+     },
+     "season": {
+      "pct": {
+       "Fall": 15,
+       "Spring": 38,
+       "Summer": 46
+      },
+      "votes": 26
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 100,
+       "Feminine": 0,
+       "Modern": 80,
+       "Classic": 20
+      },
+      "votes": 21
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "concentration_hint null",
+    "thin data: type chart based on 28 votes (<30)",
+    "thin data: season chart based on 26 votes (<30)",
+    "thin data: audience_style chart based on 21 votes (<30); Masculine 100% / Feminine 0% rests on 21 votes and the page label is 'for women and men'",
+    "thin data (caution, >=30): occasion chart 35 votes; all ratings based on only 43-47 votes (2026 release)"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": null,
+   "aka": null
+  },
+  {
+   "id": "fragrance-world-bois-de-bois",
+   "name": "Bois de Bois",
+   "house": "Fragrance World",
+   "userName": "Fragrance World Bois de Bois",
+   "year": 2025,
+   "concentration": "Eau de Parfum",
+   "genderLabel": "Men's (one retailer describes it as unisex)",
+   "notes": null,
+   "accords": null,
+   "scentSummary": "Peppery, herbal woody opening (pepper, basil) over vetiver and dry woods with a cool minty edge, per retailer note lists. No community data was reachable yet (released late 2025).",
+   "community": {
+    "source": "Parfumo",
+    "url": null,
+    "retrieved": null,
+    "ratings": null,
+    "charts": null
+   },
+   "fragrantica": null,
+   "flags": [
+    "Parfumo: both 'search' and a direct guessed page URL (https://www.parfumo.com/Perfumes/Fragrance-World/Bois-de-Bois) returned HTTP 403 with title 'Just a moment...' (Cloudflare bot-check), not a 'not found' result. Parfumo tool output could not be obtained this session; identity/notes should NOT be treated as Parfumo-sourced.",
+    "Fragrantica: a listing page clearly exists (https://www.fragrantica.com/perfume/Fragrance-World/Bois-de-Bois-123015.html, surfaced twice by independent WebSearch queries, plus a beta.fragrantica.com mirror), but ONE WebFetch of fragrantica.com and one of beta.fragrantica.com both returned HTTP 403 (no readable page content, consistent with a Cloudflare block). Per instructions, this was recorded and not retried further. No overall rating, vote counts, longevity/sillage/gender/price-value votes, or season/day-night percentages were obtained - do not invent any of these numbers.",
+    "All note/description data in scentSummary is retailer-copy via WebSearch, method-labelled accordingly; it has not been cross-checked against Fragrantica's or Parfumo's own note lists because neither was accessible this session.",
+    "Launched December 2025 per consistent retailer copy - this is a very recent SKU, which is also the most likely reason Parfumo may not yet have indexed it (separately from the Cloudflare block observed)."
+   ],
+   "manual": {
+    "seasons": [
+     "hot",
+     "warm",
+     "mild"
+    ],
+    "occasions": [
+     "casual",
+     "office",
+     "outdoor"
+    ],
+    "strength": "moderate",
+    "longevity": "medium",
+    "source": "Suggested from retailer note lists (pepper, basil, vetiver, mint, woods) — not community data. Edit these tags in Collection."
+   },
+   "profile": {},
+   "notesOnFit": null,
+   "aka": null
+  },
+  {
+   "id": "french-avenue-liquid-brun",
+   "name": "Liquid Brun",
+   "house": "French Avenue",
+   "userName": "French Avenue Liquid Brun",
+   "year": 2024,
+   "concentration": null,
+   "genderLabel": "for women and men",
+   "notes": {
+    "top": [
+     "Orange blossom",
+     "Cardamom",
+     "Cinnamon",
+     "Bergamot"
+    ],
+    "heart": [
+     "Bourbon vanilla",
+     "Elemi resin"
+    ],
+    "base": [
+     "Praliné",
+     "Gaiac wood",
+     "Musk",
+     "Ambroxan"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Sweet",
+     "size": "l"
+    },
+    {
+     "accord": "Gourmand",
+     "size": "l"
+    },
+    {
+     "accord": "Creamy",
+     "size": "l"
+    },
+    {
+     "accord": "Spicy",
+     "size": "m"
+    },
+    {
+     "accord": "Oriental",
+     "size": "s"
+    }
+   ],
+   "scentSummary": "Sweet-gourmand fragrance opening with orange blossom, cardamom, cinnamon and bergamot. Heart notes of bourbon vanilla and elemi resin anchor the composition, which settles into a creamy-spicy base of praliné, gaiac wood, musk and ambroxan.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/french-avenue/liquid-brun",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 8.4,
+      "votes": 2590
+     },
+     "longevity": {
+      "avg": 8.4,
+      "votes": 2470
+     },
+     "sillage": {
+      "avg": 8.1,
+      "votes": 2472
+     },
+     "bottle": {
+      "avg": 7.2,
+      "votes": 2445
+     },
+     "value": {
+      "avg": 9.3,
+      "votes": 2424
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Woody": 6,
+       "Oriental": 10,
+       "Spicy": 15,
+       "Creamy": 19,
+       "Sweet": 26,
+       "Gourmand": 24
+      },
+      "votes": 1675
+     },
+     "occasion": {
+      "pct": {
+       "Business": 7,
+       "Daily": 13,
+       "Leisure": 18,
+       "Evening": 32,
+       "Night Out": 31
+      },
+      "votes": 1391
+     },
+     "season": {
+      "pct": {
+       "Spring": 12,
+       "Fall": 42,
+       "Winter": 46
+      },
+      "votes": 1071
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 69,
+       "Feminine": 31,
+       "Modern": 79,
+       "Classic": 21
+      },
+      "votes": 968
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "concentration_hint null"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": "Parfumo also lists a 2025 Limited Edition (separate page, fewer votes). These numbers are for the 2024 original.",
+   "aka": null
+  },
+  {
+   "id": "french-avenue-vulcan-feu",
+   "name": "Vulcan Feu",
+   "house": "French Avenue",
+   "userName": "French Avenue Vulcan Feu",
+   "year": 2025,
+   "concentration": null,
+   "genderLabel": "for women and men",
+   "notes": {
+    "top": [
+     "Mango",
+     "Ginger",
+     "Lemon",
+     "Rhubarb"
+    ],
+    "heart": [
+     "Jasmine",
+     "Pink pepper",
+     "Praliné",
+     "Violet"
+    ],
+    "base": [
+     "Ambergris",
+     "Cedarwood",
+     "Moss",
+     "Tonka bean"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Fruity",
+     "size": "l"
+    },
+    {
+     "accord": "Sweet",
+     "size": "l"
+    },
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Citrus",
+     "size": "m"
+    },
+    {
+     "accord": "Creamy",
+     "size": "s"
+    }
+   ],
+   "scentSummary": "Feu is a fruity-sweet fragrance with prominent fresh and citrus accords. Top notes feature mango, ginger, lemon, and rhubarb; the heart contains jasmine, pink pepper, praliné, and violet; the base develops ambergris, cedarwood, moss, and tonka bean for warmth and depth.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/french-avenue/feu",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 8.0,
+      "votes": 1216
+     },
+     "longevity": {
+      "avg": 7.8,
+      "votes": 1140
+     },
+     "sillage": {
+      "avg": 7.7,
+      "votes": 1130
+     },
+     "bottle": {
+      "avg": 7.7,
+      "votes": 1126
+     },
+     "value": {
+      "avg": 8.9,
+      "votes": 1107
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Synthetic": 6,
+       "Creamy": 8,
+       "Citrus": 14,
+       "Fresh": 20,
+       "Fruity": 28,
+       "Sweet": 24
+      },
+      "votes": 864
+     },
+     "occasion": {
+      "pct": {
+       "Sport": 8,
+       "Business": 10,
+       "Evening": 11,
+       "Night Out": 15,
+       "Leisure": 30,
+       "Daily": 25
+      },
+      "votes": 776
+     },
+     "season": {
+      "pct": {
+       "Fall": 11,
+       "Spring": 41,
+       "Summer": 48
+      },
+      "votes": 537
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 59,
+       "Feminine": 41,
+       "Modern": 93,
+       "Classic": 7
+      },
+      "votes": 571
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "no concentration_hint"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": "Parfumo files this as \"Feu\" in French Avenue's Vulcan collection.",
+   "aka": null
+  },
+  {
+   "id": "maison-alhambra-eternal-touch",
+   "name": "Eternal Touch",
+   "house": "Maison Alhambra",
+   "userName": "Maison Alhambra Eternal Touch",
+   "year": null,
+   "concentration": null,
+   "genderLabel": "for women and men",
+   "notes": {
+    "top": [
+     "Spices",
+     "Tobacco"
+    ],
+    "heart": [
+     "Vanilla",
+     "Tonka bean",
+     "Cocoa",
+     "Tobacco flower"
+    ],
+    "base": [
+     "Dried fruits",
+     "Woods"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Spicy",
+     "size": "l"
+    },
+    {
+     "accord": "Sweet",
+     "size": "l"
+    },
+    {
+     "accord": "Oriental",
+     "size": "m"
+    },
+    {
+     "accord": "Gourmand",
+     "size": "m"
+    },
+    {
+     "accord": "Woody",
+     "size": "m"
+    }
+   ],
+   "scentSummary": "A spicy tobacco fragrance opening with tobacco and spices, transitioning into a sweet gourmand heart of vanilla, tonka bean, cocoa, and tobacco flower, with a woody base of dried fruits and woods. The profile leans heavily spicy and sweet with oriental and gourmand character.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/maison-alhambra/eternal-touch-tobacco-touch",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 7.6,
+      "votes": 73
+     },
+     "longevity": {
+      "avg": 7.6,
+      "votes": 67
+     },
+     "sillage": {
+      "avg": 7.5,
+      "votes": 66
+     },
+     "bottle": {
+      "avg": 6.7,
+      "votes": 70
+     },
+     "value": {
+      "avg": 8.8,
+      "votes": 70
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Smoky": 7,
+       "Woody": 13,
+       "Gourmand": 15,
+       "Oriental": 15,
+       "Spicy": 25,
+       "Sweet": 24
+      },
+      "votes": 71
+     },
+     "occasion": {
+      "pct": {
+       "Business": 9,
+       "Leisure": 11,
+       "Daily": 11,
+       "Night Out": 32,
+       "Evening": 38
+      },
+      "votes": 47
+     },
+     "season": {
+      "pct": {
+       "Spring": 7,
+       "Fall": 44,
+       "Winter": 49
+      },
+      "votes": 41
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 71,
+       "Feminine": 29,
+       "Modern": 50,
+       "Classic": 50
+      },
+      "votes": 40
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "concentration_hint is null"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": "Parfumo lists this bottle as \"Eternal Touch / Tobacco Touch\": reviewers say it is the earlier Tobacco Touch re-bottled, so the 73 ratings pool both names.",
+   "aka": "Tobacco Touch"
+  },
+  {
+   "id": "rayhaan-aquatica",
+   "name": "Aquatica",
+   "house": "Rayhaan",
+   "userName": "Rayhaan Aquatica",
+   "year": 2025,
+   "concentration": null,
+   "genderLabel": "for men",
+   "notes": {
+    "top": [
+     "Lime",
+     "Coconut",
+     "Bergamot",
+     "Mandarin orange"
+    ],
+    "heart": [
+     "Ginger",
+     "Hibiscus",
+     "Ylang-ylang",
+     "Jasmine"
+    ],
+    "base": [
+     "Musk",
+     "Sugar cane",
+     "White rum"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Citrus",
+     "size": "l"
+    },
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Sweet",
+     "size": "m"
+    },
+    {
+     "accord": "Creamy",
+     "size": "m"
+    },
+    {
+     "accord": "Fruity",
+     "size": "m"
+    }
+   ],
+   "scentSummary": "A fresh citrus composition built on lime, bergamot and mandarin orange, with a floral heart of jasmine and ginger, finishing in a sweet base of musk and sugar cane.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/rayhaan/aquatica",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 8.3,
+      "votes": 886
+     },
+     "longevity": {
+      "avg": 7.3,
+      "votes": 833
+     },
+     "sillage": {
+      "avg": 7.1,
+      "votes": 836
+     },
+     "bottle": {
+      "avg": 7.7,
+      "votes": 810
+     },
+     "value": {
+      "avg": 8.8,
+      "votes": 802
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Aquatic": 10,
+       "Fruity": 13,
+       "Creamy": 14,
+       "Sweet": 16,
+       "Citrus": 24,
+       "Fresh": 23
+      },
+      "votes": 635
+     },
+     "occasion": {
+      "pct": {
+       "Evening": 10,
+       "Business": 11,
+       "Night Out": 12,
+       "Sport": 15,
+       "Leisure": 27,
+       "Daily": 25
+      },
+      "votes": 527
+     },
+     "season": {
+      "pct": {
+       "Fall": 9,
+       "Spring": 38,
+       "Summer": 53
+      },
+      "votes": 322
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 69,
+       "Feminine": 31,
+       "Modern": 88,
+       "Classic": 12
+      },
+      "votes": 357
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "concentration_hint null"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": null,
+   "aka": null
+  },
+  {
+   "id": "rayhaan-italia",
+   "name": "Italia",
+   "house": "Rayhaan",
+   "userName": "Rayhaan Italia",
+   "year": 2025,
+   "concentration": null,
+   "genderLabel": "for men",
+   "notes": {
+    "top": [
+     "Bergamot",
+     "Lavender",
+     "Lemon"
+    ],
+    "heart": [
+     "Honey",
+     "Cashmeran",
+     "Jasmine sambac",
+     "Cinnamon"
+    ],
+    "base": [
+     "Tonka bean",
+     "Tobacco",
+     "Vanilla"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Sweet",
+     "size": "l"
+    },
+    {
+     "accord": "Spicy",
+     "size": "l"
+    },
+    {
+     "accord": "Creamy",
+     "size": "l"
+    },
+    {
+     "accord": "Citrus",
+     "size": "m"
+    },
+    {
+     "accord": "Gourmand",
+     "size": "m"
+    }
+   ],
+   "scentSummary": "A sweet-spicy fragrance opening with citrus notes (bergamot, lemon) and lavender, developing into a creamy, honey-forward heart with cinnamon and jasmine, settling into a gourmand base of tonka bean, tobacco, and vanilla.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/rayhaan/italia",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 8.5,
+      "votes": 165
+     },
+     "longevity": {
+      "avg": 8.1,
+      "votes": 155
+     },
+     "sillage": {
+      "avg": 8.0,
+      "votes": 153
+     },
+     "bottle": {
+      "avg": 8.1,
+      "votes": 155
+     },
+     "value": {
+      "avg": 9.0,
+      "votes": 153
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Floral": 6,
+       "Gourmand": 13,
+       "Citrus": 13,
+       "Creamy": 19,
+       "Sweet": 26,
+       "Spicy": 22
+      },
+      "votes": 98
+     },
+     "occasion": {
+      "pct": {
+       "Business": 13,
+       "Daily": 15,
+       "Leisure": 20,
+       "Night Out": 26,
+       "Evening": 26
+      },
+      "votes": 89
+     },
+     "season": {
+      "pct": {
+       "Summer": 9,
+       "Spring": 26,
+       "Winter": 34,
+       "Fall": 31
+      },
+      "votes": 77
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 71,
+       "Feminine": 29,
+       "Modern": 91,
+       "Classic": 9
+      },
+      "votes": 56
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "concentration_hint null"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": null,
+   "aka": null
+  },
+  {
+   "id": "rayhaan-jungle-vibe",
+   "name": "Jungle Vibe",
+   "house": "Rayhaan",
+   "userName": "Rayhaan Jungle Vibe",
+   "year": 2025,
+   "concentration": null,
+   "genderLabel": "for women and men",
+   "notes": {
+    "flat": [
+     "Green notes",
+     "Bergamot",
+     "Fig",
+     "Grapefruit",
+     "Citrus notes",
+     "Sandalwood"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Green",
+     "size": "l"
+    },
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Citrus",
+     "size": "m"
+    },
+    {
+     "accord": "Fruity",
+     "size": "s"
+    },
+    {
+     "accord": "Woody",
+     "size": "s"
+    }
+   ],
+   "scentSummary": "A green-fresh fragrance with pronounced citrus elements. The composition combines bergamot, fig, and grapefruit with woody and green undertones, creating a balanced fresh profile centered on green and fresh accords.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/rayhaan/jungle-vibe",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 7.9,
+      "votes": 147
+     },
+     "longevity": {
+      "avg": 7.4,
+      "votes": 128
+     },
+     "sillage": {
+      "avg": 7.1,
+      "votes": 128
+     },
+     "bottle": {
+      "avg": 7.6,
+      "votes": 126
+     },
+     "value": {
+      "avg": 8.8,
+      "votes": 116
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Sweet": 6,
+       "Aquatic": 10,
+       "Fruity": 11,
+       "Woody": 11,
+       "Citrus": 16,
+       "Green": 24,
+       "Fresh": 23
+      },
+      "votes": 152
+     },
+     "occasion": {
+      "pct": {
+       "Evening": 7,
+       "Night Out": 9,
+       "Sport": 15,
+       "Business": 18,
+       "Daily": 26,
+       "Leisure": 25
+      },
+      "votes": 136
+     },
+     "season": {
+      "pct": {
+       "Winter": 4,
+       "Fall": 13,
+       "Summer": 40,
+       "Spring": 42
+      },
+      "votes": 89
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 57,
+       "Feminine": 43,
+       "Modern": 91,
+       "Classic": 9
+      },
+      "votes": 94
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "no pyramid (flat notes only)",
+    "concentration_hint null"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": null,
+   "aka": null
+  },
+  {
+   "id": "rayhaan-lion",
+   "name": "Lion",
+   "house": "Rayhaan",
+   "userName": "Rayhaan Lion",
+   "year": 2024,
+   "concentration": null,
+   "genderLabel": "for men",
+   "notes": {
+    "top": [
+     "Pear",
+     "Lavender",
+     "Mint",
+     "Bergamot"
+    ],
+    "heart": [
+     "Cinnamon",
+     "Clary sage",
+     "Cumin"
+    ],
+    "base": [
+     "Vanilla",
+     "Amber",
+     "Patchouli",
+     "Cedar"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Sweet",
+     "size": "l"
+    },
+    {
+     "accord": "Spicy",
+     "size": "l"
+    },
+    {
+     "accord": "Fruity",
+     "size": "m"
+    },
+    {
+     "accord": "Fresh",
+     "size": "s"
+    },
+    {
+     "accord": "Oriental",
+     "size": "s"
+    }
+   ],
+   "scentSummary": "A sweet and spicy fragrance with fruity opening notes of pear and bergamot accented by lavender and mint, leading into a warm heart of cinnamon, clary sage and cumin, and settling into a creamy base of vanilla, amber, patchouli and cedar.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/rayhaan/lion",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 8.5,
+      "votes": 208
+     },
+     "longevity": {
+      "avg": 8.5,
+      "votes": 197
+     },
+     "sillage": {
+      "avg": 8.3,
+      "votes": 197
+     },
+     "bottle": {
+      "avg": 8.2,
+      "votes": 197
+     },
+     "value": {
+      "avg": 9.2,
+      "votes": 195
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Floral": 5,
+       "Powdery": 6,
+       "Creamy": 7,
+       "Synthetic": 7,
+       "Oriental": 9,
+       "Fresh": 10,
+       "Sweet": 25,
+       "Spicy": 17,
+       "Fruity": 14
+      },
+      "votes": 156
+     },
+     "occasion": {
+      "pct": {
+       "Business": 11,
+       "Daily": 16,
+       "Leisure": 20,
+       "Night Out": 27,
+       "Evening": 26
+      },
+      "votes": 127
+     },
+     "season": {
+      "pct": {
+       "Summer": 8,
+       "Spring": 25,
+       "Winter": 32,
+       "Fall": 35
+      },
+      "votes": 111
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 98,
+       "Feminine": 2,
+       "Modern": 91,
+       "Classic": 9
+      },
+      "votes": 74
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "concentration_hint null"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": null,
+   "aka": null
+  },
+  {
+   "id": "rayhaan-obsidian",
+   "name": "Obsidian",
+   "house": "Rayhaan",
+   "userName": "Rayhaan Obsidian",
+   "year": 2025,
+   "concentration": null,
+   "genderLabel": "for men",
+   "notes": {
+    "flat": [
+     "Iris",
+     "Leather",
+     "Rose",
+     "Oud"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Powdery",
+     "size": "l"
+    },
+    {
+     "accord": "Leathery",
+     "size": "l"
+    },
+    {
+     "accord": "Sweet",
+     "size": "m"
+    },
+    {
+     "accord": "Woody",
+     "size": "m"
+    },
+    {
+     "accord": "Floral",
+     "size": "s"
+    }
+   ],
+   "scentSummary": "Powdery and leathery fragrance with sweet and woody undertones. Notes include iris, leather, rose, and oud.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/rayhaan/obsidian",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 8.3,
+      "votes": 206
+     },
+     "longevity": {
+      "avg": 8.0,
+      "votes": 191
+     },
+     "sillage": {
+      "avg": 7.8,
+      "votes": 190
+     },
+     "bottle": {
+      "avg": 8.1,
+      "votes": 190
+     },
+     "value": {
+      "avg": 8.9,
+      "votes": 182
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Creamy": 6,
+       "Spicy": 8,
+       "Floral": 12,
+       "Woody": 15,
+       "Powdery": 23,
+       "Leathery": 19,
+       "Sweet": 17
+      },
+      "votes": 155
+     },
+     "occasion": {
+      "pct": {
+       "Leisure": 11,
+       "Daily": 11,
+       "Business": 15,
+       "Evening": 32,
+       "Night Out": 31
+      },
+      "votes": 119
+     },
+     "season": {
+      "pct": {
+       "Summer": 5,
+       "Spring": 24,
+       "Fall": 35,
+       "Winter": 36
+      },
+      "votes": 105
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 89,
+       "Feminine": 11,
+       "Modern": 60,
+       "Classic": 40
+      },
+      "votes": 86
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "concentration_hint: null",
+    "notes: flat structure (no pyramid with top/heart/base)"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": null,
+   "aka": null
+  },
+  {
+   "id": "rayhaan-terra",
+   "name": "Terra",
+   "house": "Rayhaan",
+   "userName": "Rayhaan Terra",
+   "year": 2025,
+   "concentration": null,
+   "genderLabel": "for men",
+   "notes": {
+    "top": [
+     "Cardamom",
+     "Frankincense",
+     "Lemon",
+     "Bergamot",
+     "Elemi resin",
+     "Sichuan pepper"
+    ],
+    "heart": [
+     "Patchouli",
+     "Saffron",
+     "Coriander",
+     "Cumin",
+     "Orange blossom",
+     "Vermouth",
+     "Aniseed",
+     "Geranium",
+     "Rose"
+    ],
+    "base": [
+     "Amber",
+     "Frankincense",
+     "Labdanum",
+     "Benzoin",
+     "Maltol",
+     "Opoponax",
+     "Ambergris",
+     "Musk",
+     "Vanilla",
+     "Birch",
+     "Oud"
+    ]
+   },
+   "accords": [
+    {
+     "accord": "Spicy",
+     "size": "l"
+    },
+    {
+     "accord": "Oriental",
+     "size": "l"
+    },
+    {
+     "accord": "Resinous",
+     "size": "m"
+    },
+    {
+     "accord": "Woody",
+     "size": "m"
+    },
+    {
+     "accord": "Sweet",
+     "size": "s"
+    }
+   ],
+   "scentSummary": "A spicy-oriental composition opening with cardamom and frankincense, developing through saffron and patchouli in the heart, settling into a warm resinous-woody base of amber, oud, and vanilla.",
+   "community": {
+    "source": "Parfumo",
+    "url": "https://www.parfumo.com/Perfumes/rayhaan/terra",
+    "retrieved": "2026-10-17",
+    "ratings": {
+     "scent": {
+      "avg": 8.3,
+      "votes": 606
+     },
+     "longevity": {
+      "avg": 8.6,
+      "votes": 562
+     },
+     "sillage": {
+      "avg": 8.4,
+      "votes": 566
+     },
+     "bottle": {
+      "avg": 7.5,
+      "votes": 541
+     },
+     "value": {
+      "avg": 9.2,
+      "votes": 540
+     }
+    },
+    "charts": {
+     "type": {
+      "pct": {
+       "Citrus": 6,
+       "Earthy": 6,
+       "Smoky": 8,
+       "Sweet": 11,
+       "Woody": 13,
+       "Spicy": 21,
+       "Oriental": 19,
+       "Resinous": 16
+      },
+      "votes": 488
+     },
+     "occasion": {
+      "pct": {
+       "Business": 9,
+       "Daily": 11,
+       "Leisure": 19,
+       "Evening": 31,
+       "Night Out": 29
+      },
+      "votes": 310
+     },
+     "season": {
+      "pct": {
+       "Spring": 22,
+       "Fall": 39,
+       "Winter": 39
+      },
+      "votes": 267
+     },
+     "audience_style": {
+      "pct": {
+       "Masculine": 86,
+       "Feminine": 14,
+       "Modern": 84,
+       "Classic": 16
+      },
+      "votes": 201
+     }
+    }
+   },
+   "fragrantica": null,
+   "flags": [
+    "concentration_hint null"
+   ],
+   "manual": null,
+   "profile": {},
+   "notesOnFit": null,
+   "aka": null
+  }
+ ]
+}

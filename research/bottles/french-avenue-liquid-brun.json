@@ -1,0 +1,172 @@
+{
+ "id": "french-avenue-liquid-brun",
+ "userName": "French Avenue Liquid Brun",
+ "identity": {
+  "house": "French Avenue",
+  "name": "Liquid Brun",
+  "year": 2024,
+  "concentration": null,
+  "genderLabel": "for women and men",
+  "matchCheck": "House and name both match exactly. User wording 'French Avenue Liquid Brun' without edition designation corresponds to the 2024 release, not the 2025 Limited Edition."
+ },
+ "candidates": [
+  {
+   "brand": "French Avenue",
+   "name": "Liquid Brun",
+   "year": 2024,
+   "url": "https://www.parfumo.com/Perfumes/french-avenue/liquid-brun",
+   "scent_votes": 2579
+  },
+  {
+   "brand": "French Avenue",
+   "name": "Liquid Brun Limited Edition",
+   "year": 2025,
+   "url": "https://www.parfumo.com/Perfumes/french-avenue/liquid-brun-limited-edition",
+   "scent_votes": 655
+  }
+ ],
+ "ambiguity": "Two releases exist: 2024 base version (2579 scent votes) and 2025 Limited Edition (655 votes). User wording matches the base version.",
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/french-avenue/liquid-brun",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/french-avenue/liquid-brun",
+   "fetched": "2026-10-17",
+   "title": "Liquid Brun by French Avenue » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Liquid Brun French Avenue 2024",
+   "meta_description": "Liquid Brun French Avenue:  Popular  sweet-gourmand fragrance from 2024 ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "French Avenue",
+   "name": "Liquid Brun",
+   "year": 2024,
+   "concentration_hint": null,
+   "gender_label": "for women and men",
+   "overall": {
+    "avg": 8.4,
+    "votes": 2590
+   },
+   "ratings": {
+    "scent": {
+     "avg": 8.4,
+     "votes": 2590
+    },
+    "longevity": {
+     "avg": 8.4,
+     "votes": 2470
+    },
+    "sillage": {
+     "avg": 8.1,
+     "votes": 2472
+    },
+    "bottle": {
+     "avg": 7.2,
+     "votes": 2445
+    },
+    "value": {
+     "avg": 9.3,
+     "votes": 2424
+    }
+   },
+   "main_accords": [
+    {
+     "accord": "Sweet",
+     "size": "l"
+    },
+    {
+     "accord": "Gourmand",
+     "size": "l"
+    },
+    {
+     "accord": "Creamy",
+     "size": "l"
+    },
+    {
+     "accord": "Spicy",
+     "size": "m"
+    },
+    {
+     "accord": "Oriental",
+     "size": "s"
+    }
+   ],
+   "notes": {
+    "top": [
+     "Orange blossom",
+     "Cardamom",
+     "Cinnamon",
+     "Bergamot"
+    ],
+    "heart": [
+     "Bourbon vanilla",
+     "Elemi resin"
+    ],
+    "base": [
+     "Praliné",
+     "Gaiac wood",
+     "Musk",
+     "Ambroxan"
+    ]
+   },
+   "counts": {
+    "reviews": 158,
+    "statements": 562,
+    "photos": 26
+   },
+   "submitted": {
+    "by": "Aqua99 ",
+    "updated": "17/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Woody": 6,
+      "Oriental": 10,
+      "Spicy": 15,
+      "Creamy": 19,
+      "Sweet": 26,
+      "Gourmand": 24
+     },
+     "votes": 1675
+    },
+    "occasion": {
+     "pct": {
+      "Business": 7,
+      "Daily": 13,
+      "Leisure": 18,
+      "Evening": 32,
+      "Night Out": 31
+     },
+     "votes": 1391
+    },
+    "season": {
+     "pct": {
+      "Spring": 12,
+      "Fall": 42,
+      "Winter": 46
+     },
+     "votes": 1071
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 69,
+      "Feminine": 31,
+      "Modern": 79,
+      "Classic": 21
+     },
+     "votes": 968
+    }
+   },
+   "chart_raw_votes_text": null,
+   "chart_raw_text": "Type Woody 6% Oriental 10% Spicy 15% Creamy 19% Sweet 26% Gourmand 24% 1,675 Votes Occasion Business 7% Daily 13% Leisure 18% Evening 32% Night Out 31% 1,391 Votes Season Spring 12% Fall 42% Winter 46% 1,071 Votes Audience & Style Masculine 69% Feminine 31% Modern 79% Classic 21% 968 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "Sweet-gourmand fragrance opening with orange blossom, cardamom, cinnamon and bergamot. Heart notes of bourbon vanilla and elemi resin anchor the composition, which settles into a creamy-spicy base of praliné, gaiac wood, musk and ambroxan.",
+ "flags": [
+  "concentration_hint null"
+ ],
+ "issues": "none"
+}

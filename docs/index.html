@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Scent Pick</title>
+  <meta name="description" content="Which fragrance to wear for the occasion, the time and the Brisbane weather.">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f1e9" media="(prefers-color-scheme: light)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Scent Pick">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="./app.css">
+  <link rel="modulepreload" href="./engine.js">
+  <link rel="modulepreload" href="./store.js">
+  <link rel="modulepreload" href="./weather.js">
+  <link rel="preload" href="./data/collection.json" as="fetch" crossorigin>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div id="update" class="update" role="status" hidden>
+    <span>Update available</span>
+    <button type="button" class="update-btn" data-act="reload">Reload</button>
+    <button type="button" class="update-x" data-act="update-dismiss" aria-label="Dismiss">×</button>
+  </div>
+
+  <main id="view" tabindex="-1">
+    <div class="boot" aria-busy="true">
+      <noscript><p class="page">Scent Pick needs JavaScript turned on.</p></noscript>
+    </div>
+  </main>
+
+  <nav class="tabbar" aria-label="Sections">
+    <a href="#/" data-tab="pick">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2c3.4 4.1 6 7.3 6 10.4a6 6 0 0 1-12 0c0-3.1 2.6-6.3 6-10.4z"/></svg>
+      <span>Pick</span>
+    </a>
+    <a href="#/collection" data-tab="collection">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.2"/><circle cx="4.5" cy="12" r="1.2"/><circle cx="4.5" cy="18" r="1.2"/></svg>
+      <span>Collection</span>
+    </a>
+    <a href="#/settings" data-tab="settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2.2"/><circle cx="9" cy="17" r="2.2"/></svg>
+      <span>Settings</span>
+    </a>
+  </nav>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="sheet" class="sheet" aria-label="Sheet"></dialog>
+</body>
+</html>

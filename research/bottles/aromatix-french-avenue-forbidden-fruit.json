@@ -1,0 +1,170 @@
+{
+ "id": "aromatix-french-avenue-forbidden-fruit",
+ "userName": "Aromatix × French Avenue Forbidden Fruit",
+ "identity": {
+  "house": "French Avenue",
+  "name": "Forbidden Fruit",
+  "year": 2025,
+  "concentration": null,
+  "genderLabel": "for women and men",
+  "matchCheck": "Parfumo brand is French Avenue, name is Forbidden Fruit (2025). The page itself evidences Aromatix in three places: a collection label above the h1 linking to french-avenue?col_id=9107 ('Aromatix'), the meta description prefix 'Aromatix | Forbidden Fruit French Avenue', and 'Interesting Facts: The fragrance is part of the Aromatix collection.' Parfumo files Aromatix as a French Avenue collection rather than a separate co-brand; this matches the user wording 'Aromatix × French Avenue Forbidden Fruit'."
+ },
+ "candidates": [
+  {
+   "brand": "French Avenue",
+   "name": "Forbidden Fruit",
+   "year": 2025,
+   "url": "https://www.parfumo.com/Perfumes/french-avenue/forbidden-fruit",
+   "scent_votes": 121
+  }
+ ],
+ "ambiguity": null,
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/french-avenue/forbidden-fruit",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/french-avenue/forbidden-fruit",
+   "fetched": "2026-10-17",
+   "title": "Forbidden Fruit by French Avenue » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Forbidden Fruit French Avenue 2025",
+   "meta_description": "Aromatix | Forbidden Fruit French Avenue:  Popular  fruity-sweet new Fragrance Release from 2025 ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "French Avenue",
+   "name": "Forbidden Fruit",
+   "year": 2025,
+   "concentration_hint": null,
+   "gender_label": "for women and men",
+   "overall": {
+    "avg": 7.8,
+    "votes": 121
+   },
+   "ratings": {
+    "scent": {
+     "avg": 7.8,
+     "votes": 121
+    },
+    "longevity": {
+     "avg": 7.9,
+     "votes": 110
+    },
+    "sillage": {
+     "avg": 7.8,
+     "votes": 108
+    },
+    "bottle": {
+     "avg": 8.4,
+     "votes": 105
+    },
+    "value": {
+     "avg": 8.5,
+     "votes": 98
+    }
+   },
+   "main_accords": [
+    {
+     "accord": "Fruity",
+     "size": "l"
+    },
+    {
+     "accord": "Sweet",
+     "size": "l"
+    },
+    {
+     "accord": "Floral",
+     "size": "m"
+    },
+    {
+     "accord": "Citrus",
+     "size": "m"
+    },
+    {
+     "accord": "Fresh",
+     "size": "s"
+    }
+   ],
+   "notes": {
+    "top": [
+     "Blood orange",
+     "Bergamot",
+     "Cardamom"
+    ],
+    "heart": [
+     "Margarita",
+     "Peach",
+     "Red apple",
+     "Rose"
+    ],
+    "base": [
+     "Amber",
+     "Benzoin",
+     "Cedarwood",
+     "Musk",
+     "Sandalwood",
+     "Vanilla absolute"
+    ]
+   },
+   "counts": {
+    "reviews": 7,
+    "statements": 32,
+    "photos": 9
+   },
+   "submitted": {
+    "by": "MartialScent ",
+    "updated": "15/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Spicy": 6,
+      "Synthetic": 7,
+      "Fresh": 10,
+      "Floral": 13,
+      "Citrus": 13,
+      "Fruity": 26,
+      "Sweet": 24
+     },
+     "votes": 99
+    },
+    "occasion": {
+     "pct": {
+      "Business": 10,
+      "Daily": 18,
+      "Night Out": 22,
+      "Leisure": 26,
+      "Evening": 24
+     },
+     "votes": 78
+    },
+    "season": {
+     "pct": {
+      "Winter": 10,
+      "Fall": 27,
+      "Spring": 33,
+      "Summer": 30
+     },
+     "votes": 70
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 50,
+      "Feminine": 50,
+      "Modern": 96,
+      "Classic": 4
+     },
+     "votes": 59
+    }
+   },
+   "chart_raw_votes_text": null,
+   "chart_raw_text": "Type Spicy 6% Synthetic 7% Fresh 10% Floral 13% Citrus 13% Fruity 26% Sweet 24% 99 Votes Occasion Business 10% Daily 18% Night Out 22% Leisure 26% Evening 24% 78 Votes Season Winter 10% Fall 27% Spring 33% Summer 30% 70 Votes Audience & Style Masculine 50% Feminine 50% Modern 96% Classic 4% 59 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "A fruity-sweet fragrance opening with blood orange and bergamot, developing into ripe peach and red apple with floral rose and margarita notes, settling into a warm base of amber, vanilla, and cedarwood with musks. Balances vivid fruits against soft florals and subtle citrus throughout.",
+ "flags": [
+  "concentration_hint is null"
+ ],
+ "issues": "none"
+}

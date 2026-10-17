@@ -1,0 +1,13 @@
+<!doctype html><meta charset="utf-8"><title>frame</title>
+<style>html,body{margin:0;background:#888}iframe{display:block;border:0;width:390px;height:var(--h,844px)}</style>
+<script>
+const q = new URLSearchParams(location.search);
+const KEY = 'scentpick.v1';
+let st = {}; try { st = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch {}
+if (q.has('reset')) st = {};
+st.prefs = st.prefs || {};
+if (q.has('o')) { const o = JSON.parse(q.get('o')); if (o) st.prefs.weatherOverride = o; else delete st.prefs.weatherOverride; }
+localStorage.setItem(KEY, JSON.stringify(st));
+document.documentElement.style.setProperty('--h', (q.get('h') || 844) + 'px');
+document.write('<iframe src="./index.html' + (q.get('go') || '#/') + '"></iframe>');
+</script>

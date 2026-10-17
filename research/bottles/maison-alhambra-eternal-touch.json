@@ -1,0 +1,155 @@
+{
+ "id": "maison-alhambra-eternal-touch",
+ "userName": "Maison Alhambra Eternal Touch",
+ "identity": {
+  "house": "Maison Alhambra",
+  "name": "Eternal Touch",
+  "year": null,
+  "concentration": null,
+  "genderLabel": "for women and men",
+  "matchCheck": "Brand and name match exactly. Search listing showed Maison Alhambra Eternal Touch with 73 scent votes; page confirms identity and metrics."
+ },
+ "candidates": [],
+ "ambiguity": null,
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/maison-alhambra/eternal-touch-tobacco-touch",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/maison-alhambra/eternal-touch-tobacco-touch",
+   "fetched": "2026-10-17",
+   "title": "Eternal Touch / Tobacco Touch by Maison Alhambra » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Eternal Touch Tobacco Touch Maison Alhambra",
+   "meta_description": "Eternal Touch / Tobacco Touch Maison Alhambra:  Popular  spicy-sweet fragrance ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "Maison Alhambra",
+   "name": "Eternal Touch",
+   "year": null,
+   "concentration_hint": null,
+   "gender_label": "for women and men",
+   "overall": {
+    "avg": 7.6,
+    "votes": 73
+   },
+   "ratings": {
+    "scent": {
+     "avg": 7.6,
+     "votes": 73
+    },
+    "longevity": {
+     "avg": 7.6,
+     "votes": 67
+    },
+    "sillage": {
+     "avg": 7.5,
+     "votes": 66
+    },
+    "bottle": {
+     "avg": 6.7,
+     "votes": 70
+    },
+    "value": {
+     "avg": 8.8,
+     "votes": 70
+    }
+   },
+   "main_accords": [
+    {
+     "accord": "Spicy",
+     "size": "l"
+    },
+    {
+     "accord": "Sweet",
+     "size": "l"
+    },
+    {
+     "accord": "Oriental",
+     "size": "m"
+    },
+    {
+     "accord": "Gourmand",
+     "size": "m"
+    },
+    {
+     "accord": "Woody",
+     "size": "m"
+    }
+   ],
+   "notes": {
+    "top": [
+     "Spices",
+     "Tobacco"
+    ],
+    "heart": [
+     "Vanilla",
+     "Tonka bean",
+     "Cocoa",
+     "Tobacco flower"
+    ],
+    "base": [
+     "Dried fruits",
+     "Woods"
+    ]
+   },
+   "counts": {
+    "reviews": 5,
+    "statements": 17,
+    "photos": 0
+   },
+   "submitted": {
+    "by": "Chs724 ",
+    "updated": "06/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Smoky": 7,
+      "Woody": 13,
+      "Gourmand": 15,
+      "Oriental": 15,
+      "Spicy": 25,
+      "Sweet": 24
+     },
+     "votes": 71
+    },
+    "occasion": {
+     "pct": {
+      "Business": 9,
+      "Leisure": 11,
+      "Daily": 11,
+      "Night Out": 32,
+      "Evening": 38
+     },
+     "votes": 47
+    },
+    "season": {
+     "pct": {
+      "Spring": 7,
+      "Fall": 44,
+      "Winter": 49
+     },
+     "votes": 41
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 71,
+      "Feminine": 29,
+      "Modern": 50,
+      "Classic": 50
+     },
+     "votes": 40
+    }
+   },
+   "chart_raw_votes_text": null,
+   "chart_raw_text": "Type Smoky 7% Woody 13% Gourmand 15% Oriental 15% Spicy 25% Sweet 24% 71 Votes Occasion Business 9% Leisure 11% Daily 11% Night Out 32% Evening 38% 47 Votes Season Spring 7% Fall 44% Winter 49% 41 Votes Audience & Style Masculine 71% Feminine 29% Modern 50% Classic 50% 40 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "A spicy tobacco fragrance opening with tobacco and spices, transitioning into a sweet gourmand heart of vanilla, tonka bean, cocoa, and tobacco flower, with a woody base of dried fruits and woods. The profile leans heavily spicy and sweet with oriental and gourmand character.",
+ "flags": [
+  "concentration_hint is null"
+ ],
+ "issues": "none"
+}

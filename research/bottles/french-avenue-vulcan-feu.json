@@ -1,0 +1,160 @@
+{
+ "id": "french-avenue-vulcan-feu",
+ "userName": "French Avenue Vulcan Feu",
+ "identity": {
+  "house": "French Avenue",
+  "name": "Feu",
+  "year": 2025,
+  "concentration": null,
+  "genderLabel": "for women and men",
+  "matchCheck": "Parfumo lists the fragrance as 'Feu' by French Avenue (2025). 'Vulcan' appears in the meta description but not in the primary name; this is a collection/reference name. House and year match exactly; name partially matches (Feu vs. Vulcan Feu)."
+ },
+ "candidates": [],
+ "ambiguity": null,
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/french-avenue/feu",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/french-avenue/feu",
+   "fetched": "2026-10-17",
+   "title": "Feu by French Avenue » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Feu French Avenue 2025",
+   "meta_description": "Vulcan | Feu French Avenue:  Popular  fruity-sweet new Fragrance Release from 2025 ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "French Avenue",
+   "name": "Feu",
+   "year": 2025,
+   "concentration_hint": null,
+   "gender_label": "for women and men",
+   "overall": {
+    "avg": 8.0,
+    "votes": 1216
+   },
+   "ratings": {
+    "scent": {
+     "avg": 8.0,
+     "votes": 1216
+    },
+    "longevity": {
+     "avg": 7.8,
+     "votes": 1140
+    },
+    "sillage": {
+     "avg": 7.7,
+     "votes": 1130
+    },
+    "bottle": {
+     "avg": 7.7,
+     "votes": 1126
+    },
+    "value": {
+     "avg": 8.9,
+     "votes": 1107
+    }
+   },
+   "main_accords": [
+    {
+     "accord": "Fruity",
+     "size": "l"
+    },
+    {
+     "accord": "Sweet",
+     "size": "l"
+    },
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Citrus",
+     "size": "m"
+    },
+    {
+     "accord": "Creamy",
+     "size": "s"
+    }
+   ],
+   "notes": {
+    "top": [
+     "Mango",
+     "Ginger",
+     "Lemon",
+     "Rhubarb"
+    ],
+    "heart": [
+     "Jasmine",
+     "Pink pepper",
+     "Praliné",
+     "Violet"
+    ],
+    "base": [
+     "Ambergris",
+     "Cedarwood",
+     "Moss",
+     "Tonka bean"
+    ]
+   },
+   "counts": {
+    "reviews": 93,
+    "statements": 307,
+    "photos": 18
+   },
+   "submitted": {
+    "by": "Skrwail ",
+    "updated": "17/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Synthetic": 6,
+      "Creamy": 8,
+      "Citrus": 14,
+      "Fresh": 20,
+      "Fruity": 28,
+      "Sweet": 24
+     },
+     "votes": 864
+    },
+    "occasion": {
+     "pct": {
+      "Sport": 8,
+      "Business": 10,
+      "Evening": 11,
+      "Night Out": 15,
+      "Leisure": 30,
+      "Daily": 25
+     },
+     "votes": 776
+    },
+    "season": {
+     "pct": {
+      "Fall": 11,
+      "Spring": 41,
+      "Summer": 48
+     },
+     "votes": 537
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 59,
+      "Feminine": 41,
+      "Modern": 93,
+      "Classic": 7
+     },
+     "votes": 571
+    }
+   },
+   "chart_raw_votes_text": null,
+   "chart_raw_text": "Type Synthetic 6% Creamy 8% Citrus 14% Fresh 20% Fruity 28% Sweet 24% 864 Votes Occasion Sport 8% Business 10% Evening 11% Night Out 15% Leisure 30% Daily 25% 776 Votes Season Fall 11% Spring 41% Summer 48% 537 Votes Audience & Style Masculine 59% Feminine 41% Modern 93% Classic 7% 571 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "Feu is a fruity-sweet fragrance with prominent fresh and citrus accords. Top notes feature mango, ginger, lemon, and rhubarb; the heart contains jasmine, pink pepper, praliné, and violet; the base develops ambergris, cedarwood, moss, and tonka bean for warmth and depth.",
+ "flags": [
+  "no concentration_hint"
+ ],
+ "issues": "none"
+}

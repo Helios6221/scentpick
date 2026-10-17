@@ -1,0 +1,163 @@
+{
+ "id": "bujairami-vibration",
+ "userName": "Bujairami Vibration",
+ "identity": {
+  "house": "Bujairami",
+  "name": "Vibration",
+  "year": 2026,
+  "concentration": null,
+  "genderLabel": "for women and men",
+  "matchCheck": "Parfumo house 'Bujairami' and name 'Vibration' match the user wording exactly. Year 2026, gender 'for women and men' (page text: 'A new perfume by Bujairami for women and men, released in 2026'; corrected by verification 2026-10-17 from the saved page after a gender_label parser bug)."
+ },
+ "candidates": [],
+ "ambiguity": null,
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/bujairami/vibration",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/bujairami/vibration",
+   "fetched": "2026-10-17",
+   "title": "Vibration by Bujairami » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Vibration Bujairami 2026",
+   "meta_description": "Vibration Bujairami:  Popular  fresh-citrusy new Fragrance Release from 2026 ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "Bujairami",
+   "name": "Vibration",
+   "year": 2026,
+   "concentration_hint": null,
+   "gender_label": "for women and men",
+   "overall": {
+    "avg": 8.9,
+    "votes": 47
+   },
+   "ratings": {
+    "scent": {
+     "avg": 8.9,
+     "votes": 47
+    },
+    "longevity": {
+     "avg": 8.1,
+     "votes": 43
+    },
+    "sillage": {
+     "avg": 8.2,
+     "votes": 43
+    },
+    "bottle": {
+     "avg": 8.0,
+     "votes": 43
+    },
+    "value": {
+     "avg": 9.0,
+     "votes": 43
+    }
+   },
+   "main_accords": [
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Citrus",
+     "size": "l"
+    },
+    {
+     "accord": "Fruity",
+     "size": "l"
+    },
+    {
+     "accord": "Green",
+     "size": "m"
+    },
+    {
+     "accord": "Floral",
+     "size": "s"
+    }
+   ],
+   "notes": {
+    "top": [
+     "Grapefruit",
+     "Bergamot",
+     "Jasmine",
+     "Magnolia"
+    ],
+    "heart": [
+     "Ginger",
+     "Herbaceous notes",
+     "Powdery notes"
+    ],
+    "base": [
+     "Amber",
+     "Cedar",
+     "Musk",
+     "Orris root",
+     "Patchouli"
+    ]
+   },
+   "counts": {
+    "reviews": 2,
+    "statements": 9,
+    "photos": 3
+   },
+   "submitted": {
+    "by": "EaZyBnA ",
+    "updated": "16/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Floral": 11,
+      "Green": 14,
+      "Fruity": 18,
+      "Fresh": 32,
+      "Citrus": 25
+     },
+     "votes": 28
+    },
+    "occasion": {
+     "pct": {
+      "Night Out": 6,
+      "Evening": 9,
+      "Sport": 14,
+      "Business": 20,
+      "Daily": 29,
+      "Leisure": 23
+     },
+     "votes": 35
+    },
+    "season": {
+     "pct": {
+      "Fall": 15,
+      "Spring": 38,
+      "Summer": 46
+     },
+     "votes": 26
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 100,
+      "Feminine": 0,
+      "Modern": 80,
+      "Classic": 20
+     },
+     "votes": 21
+    }
+   },
+   "chart_raw_votes_text": null,
+   "chart_raw_text": "Type Floral 11% Green 14% Fruity 18% Fresh 32% Citrus 25% 28 Votes Occasion Night Out 6% Evening 9% Sport 14% Business 20% Daily 29% Leisure 23% 35 Votes Season Fall 15% Spring 38% Summer 46% 26 Votes Audience & Style Masculine 100% Feminine 0% Modern 80% Classic 20% 21 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "A fresh-citrus fragrance with bright grapefruit and bergamot leading into an herbal, gingered heart, finishing with amber, cedar and musk. Primary accords are fresh citrus and fruity notes with subtle green and floral undertones.",
+ "flags": [
+  "concentration_hint null",
+  "thin data: type chart based on 28 votes (<30)",
+  "thin data: season chart based on 26 votes (<30)",
+  "thin data: audience_style chart based on 21 votes (<30); Masculine 100% / Feminine 0% rests on 21 votes and the page label is 'for women and men'",
+  "thin data (caution, >=30): occasion chart 35 votes; all ratings based on only 43-47 votes (2026 release)"
+ ],
+ "issues": "none"
+}

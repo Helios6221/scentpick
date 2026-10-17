@@ -1,0 +1,158 @@
+{
+  "id": "rayhaan-italia",
+  "userName": "Rayhaan Italia",
+  "identity": {
+    "house": "Rayhaan",
+    "name": "Italia",
+    "year": 2025,
+    "concentration": null,
+    "genderLabel": "for men",
+    "matchCheck": "House 'Rayhaan' and name 'Italia' match exactly with user wording. Single release from 2025 found; no ambiguity."
+  },
+  "candidates": [],
+  "ambiguity": null,
+  "parfumo": {
+    "url": "https://www.parfumo.com/Perfumes/rayhaan/italia",
+    "retrieved": "2026-10-17",
+    "method": "curl via tools/parfumo_fetch.py",
+    "data": {
+      "http_status": 200,
+      "url": "https://www.parfumo.com/Perfumes/rayhaan/italia",
+      "fetched": "2026-10-17",
+      "title": "Italia by Rayhaan » Reviews & Perfume Facts",
+      "is_404": false,
+      "no_ratings_text": false,
+      "h1_text": "Italia Rayhaan 2025",
+      "meta_description": "Italia Rayhaan:  Popular  sweet-spicy new Fragrance Release from 2025 ✓ Honest reviews & how it smells like » Discover more",
+      "brand": "Rayhaan",
+      "name": "Italia",
+      "year": 2025,
+      "concentration_hint": null,
+      "gender_label": "for men",
+      "overall": {
+        "avg": 8.5,
+        "votes": 165
+      },
+      "ratings": {
+        "scent": {
+          "avg": 8.5,
+          "votes": 165
+        },
+        "longevity": {
+          "avg": 8.1,
+          "votes": 155
+        },
+        "sillage": {
+          "avg": 8.0,
+          "votes": 153
+        },
+        "bottle": {
+          "avg": 8.1,
+          "votes": 155
+        },
+        "value": {
+          "avg": 9.0,
+          "votes": 153
+        }
+      },
+      "main_accords": [
+        {
+          "accord": "Sweet",
+          "size": "l"
+        },
+        {
+          "accord": "Spicy",
+          "size": "l"
+        },
+        {
+          "accord": "Creamy",
+          "size": "l"
+        },
+        {
+          "accord": "Citrus",
+          "size": "m"
+        },
+        {
+          "accord": "Gourmand",
+          "size": "m"
+        }
+      ],
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lavender",
+          "Lemon"
+        ],
+        "heart": [
+          "Honey",
+          "Cashmeran",
+          "Jasmine sambac",
+          "Cinnamon"
+        ],
+        "base": [
+          "Tonka bean",
+          "Tobacco",
+          "Vanilla"
+        ]
+      },
+      "counts": {
+        "reviews": 11,
+        "statements": 26,
+        "photos": 3
+      },
+      "submitted": {
+        "by": "Jask ",
+        "updated": "13/10/2026"
+      },
+      "charts": {
+        "type": {
+          "pct": {
+            "Floral": 6,
+            "Gourmand": 13,
+            "Citrus": 13,
+            "Creamy": 19,
+            "Sweet": 26,
+            "Spicy": 22
+          },
+          "votes": 98
+        },
+        "occasion": {
+          "pct": {
+            "Business": 13,
+            "Daily": 15,
+            "Leisure": 20,
+            "Night Out": 26,
+            "Evening": 26
+          },
+          "votes": 89
+        },
+        "season": {
+          "pct": {
+            "Summer": 9,
+            "Spring": 26,
+            "Winter": 34,
+            "Fall": 31
+          },
+          "votes": 77
+        },
+        "audience_style": {
+          "pct": {
+            "Masculine": 71,
+            "Feminine": 29,
+            "Modern": 91,
+            "Classic": 9
+          },
+          "votes": 56
+        }
+      },
+      "chart_raw_votes_text": null,
+      "chart_raw_text": "Type Floral 6% Gourmand 13% Citrus 13% Creamy 19% Sweet 26% Spicy 22% 98 Votes Occasion Business 13% Daily 15% Leisure 20% Night Out 26% Evening 26% 89 Votes Season Summer 9% Spring 26% Winter 34% Fall 31% 77 Votes Audience & Style Masculine 71% Feminine 29% Modern 91% Classic 9% 56 Votes"
+    }
+  },
+  "fragrantica": null,
+  "scentSummary": "A sweet-spicy fragrance opening with citrus notes (bergamot, lemon) and lavender, developing into a creamy, honey-forward heart with cinnamon and jasmine, settling into a gourmand base of tonka bean, tobacco, and vanilla.",
+  "flags": [
+    "concentration_hint null"
+  ],
+  "issues": "none"
+}
