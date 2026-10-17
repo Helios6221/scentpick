@@ -33,11 +33,13 @@ One-time setup (about five minutes):
    gh api -X POST repos/{owner}/scentpick/pages -f 'source[branch]=main' -f 'source[path]=/docs'
    ```
    (Or in the browser: repo → Settings → Pages → Source "Deploy from a branch" → `main` / `/docs` → Save.)
-4. Wait a minute, then open `https://<your-github-username>.github.io/scentpick/` on your iPhone in Safari.
+4. Wait a minute, then open the site on your iPhone in Safari.
+
+**Live site:** https://helios6221.github.io/scentpick/ (repo: https://github.com/Helios6221/scentpick, Pages serves `main` → `/docs`).
 
 ## Add it to your iPhone Home Screen
 
-1. Open the URL above in **Safari** (it has to be Safari for a full-screen app).
+1. Open https://helios6221.github.io/scentpick/ in **Safari** (it has to be Safari for a full-screen app).
 2. Tap the **Share** button (the square with an arrow), then **Add to Home Screen**, then **Add**.
 3. Open it from the Home Screen once while online so the service worker caches everything. After that it works
    offline; the forecast uses the last download when there is no signal.
