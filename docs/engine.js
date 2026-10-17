@@ -10,17 +10,17 @@
 //  - longevity rating -> expected hours; sillage rating -> spray count (strength never lowers the score)
 
 export const OCCASIONS = [
-  { id: 'office',     label: 'Office',        icon: '💼', indoor: 0.50, indoorTemp: 22, close: true },
-  { id: 'casual',     label: 'Casual',        icon: '👟', indoor: 0.15, indoorTemp: 23 },
-  { id: 'beach',      label: 'Beach',         icon: '🏖️', indoor: 0.00, indoorTemp: 23, loud: true },
-  { id: 'outdoor',    label: 'Outdoor event', sub: 'BBQs, day parties', icon: '🍖', indoor: 0.05, indoorTemp: 24, loud: true },
-  { id: 'bars',       label: 'Bars',          icon: '🍸', indoor: 0.35, indoorTemp: 23, loud: true },
-  { id: 'clubbing',   label: 'Clubbing',      icon: '🪩', indoor: 0.50, indoorTemp: 28, loud: true },
-  { id: 'houseparty', label: 'House party',   icon: '🎉', indoor: 0.30, indoorTemp: 25 },
-  { id: 'dinner',     label: 'Dinner',        icon: '🍽️', indoor: 0.50, indoorTemp: 22, close: true,
+  { id: 'office', duration: 9,     label: 'Office',        icon: '💼', indoor: 0.50, indoorTemp: 22, close: true },
+  { id: 'casual', duration: 4,     label: 'Casual',        icon: '👟', indoor: 0.15, indoorTemp: 23 },
+  { id: 'beach', duration: 5,      label: 'Beach',         icon: '🏖️', indoor: 0.00, indoorTemp: 23, loud: true },
+  { id: 'outdoor', duration: 5,    label: 'Outdoor event', sub: 'BBQs, day parties', icon: '🍖', indoor: 0.05, indoorTemp: 24, loud: true },
+  { id: 'bars', duration: 5,       label: 'Bars',          icon: '🍸', indoor: 0.35, indoorTemp: 23, loud: true },
+  { id: 'clubbing', duration: 6,   label: 'Clubbing',      icon: '🪩', indoor: 0.50, indoorTemp: 28, loud: true },
+  { id: 'houseparty', duration: 6, label: 'House party',   icon: '🎉', indoor: 0.30, indoorTemp: 25 },
+  { id: 'dinner', duration: 4,     label: 'Dinner',        icon: '🍽️', indoor: 0.50, indoorTemp: 22, close: true,
     variants: [{ id: 'family', label: 'Family' }, { id: 'friends', label: 'Friends' }, { id: 'work', label: 'Work' }] },
-  { id: 'date',       label: 'Date',          sub: 'meant to be sexy', icon: '❤️‍🔥', indoor: 0.40, indoorTemp: 23, close: true },
-  { id: 'formal',     label: 'Formal',        icon: '🎩', indoor: 0.50, indoorTemp: 22, close: true },
+  { id: 'date', duration: 5,       label: 'Date',          sub: 'meant to be sexy', icon: '❤️‍🔥', indoor: 0.40, indoorTemp: 23, close: true },
+  { id: 'formal', duration: 6,     label: 'Formal',        icon: '🎩', indoor: 0.50, indoorTemp: 22, close: true },
 ];
 export const occasionById = id => OCCASIONS.find(o => o.id === id);
 
@@ -107,7 +107,9 @@ export function summarizeWeather(hourly, win) {
     note = 'forecast does not cover that time yet; using the nearest hours';
   }
   const pick = k => idx.map(i => (hourly[k] || [])[i]).filter(v => v != null);
-  const mean = a => a.length ? a.reduce((x, y) => x + y, 0) / a.length : null;
+  const nightWin = win.start.getHours() >= 17 || win.start.getHours() < 5;
+  const wts = idx.map((_, j) => nightWin && idx.length > 1 ? 1 - 0.5 * j / (idx.length - 1) : 1);   // 1.0 -> 0.5 across a night window
+  const mean = a => { if (!a.length) return null; let n = 0, d = 0; a.forEach((v, j) => { const w = wts[j] ?? 1; n += v * w; d += w; }); return n / d; };
   const temps = pick('temperature_2m'), feels = pick('apparent_temperature');
   const codes = pick('weather_code');
   const counts = new Map(); codes.forEach(c => counts.set(c, (counts.get(c) || 0) + 1));
@@ -163,18 +165,25 @@ export const WHEN_PRESETS = [
 export function windowForPreset(preset, occasionId, now = new Date()) {
   const h = now.getHours();
   const nowH = atHour(now, now.getHours());                                   // 'now' windows start on the hour
-  const nightSpan = occasionId === 'clubbing' ? [22, 27] : occasionId === 'houseparty' ? [19, 25] : occasionId === 'dinner' ? [18.5, 22.5] :
-    occasionId === 'bars' ? [19, 24] : occasionId === 'date' ? [18.5, 24] : [18, 24];
-  const daySpan = occasionId === 'office' ? [8.5, 18] : occasionId === 'beach' ? [10, 16] : occasionId === 'outdoor' ? [12, 18] : [10, 17];
+  // Realistic 'being out' hours — what you dress for, not the 3am low or the 6am chill.
+  const nightSpan = occasionId === 'clubbing' ? [21, 25] : occasionId === 'houseparty' ? [19, 23] : occasionId === 'dinner' ? [18.5, 22] :
+    occasionId === 'bars' ? [19, 23] : occasionId === 'date' ? [19, 23] : occasionId === 'formal' ? [18, 23] : [18.5, 23];
+  const daySpan = occasionId === 'office' ? [9, 17.5] : occasionId === 'beach' ? [10, 16] : occasionId === 'outdoor' ? [12, 17] : [10, 17];
   const span = (base, [a, b]) => mkWin(atHour(base, Math.floor(a), (a % 1) * 60), atHour(base, Math.floor(b), (b % 1) * 60), now, preset);
   switch (preset) {
-    case 'now': return mkWin(nowH, new Date(nowH.getTime() + 4 * 36e5), now, preset);
+    case 'now': return mkWin(nowH, nowEnd(nowH), now, preset);
     case 'today': { const w = span(now, daySpan); if (w.start < now) w.start = nowH; if (w.end <= w.start) w.end = new Date(w.start.getTime() + 3 * 36e5); return mkWin(w.start, w.end, now, preset); }
     case 'tonight': { const w = span(now, nightSpan); if (w.start < now) w.start = nowH; if (w.end <= w.start) w.end = new Date(w.start.getTime() + 3 * 36e5); return mkWin(w.start, w.end, now, preset); }
     case 'tomorrow': return span(addDays(now, 1), daySpan);
     case 'tomorrow-night': return span(addDays(now, 1), nightSpan);
   }
-  return mkWin(nowH, new Date(nowH.getTime() + 4 * 36e5), now, 'now');
+  return mkWin(nowH, nowEnd(nowH), now, 'now');
+}
+function nowEnd(startH) {
+  const h = startH.getHours();
+  let end = new Date(startH.getTime() + (h < 5 ? 3 : 4) * 36e5);
+  if (h >= 18) { const cap = atHour(addDays(startH, 1), 1); if (end > cap) end = cap; }   // evening: stop at 1am
+  return end;
 }
 /** Default wear window for an occasion given the current time (James's "when I'll actually be wearing it"). */
 export function inferWindow(occasionId, now = new Date()) {
@@ -184,7 +193,7 @@ export function inferWindow(occasionId, now = new Date()) {
     if (dow >= 1 && dow <= 5 && h < 15) return windowForPreset('today', occasionId, now);
     let d = addDays(now, 1); while (d.getDay() === 0 || d.getDay() === 6) d = addDays(d, 1);
     const isTomorrow = atHour(d, 0).getTime() === atHour(addDays(now, 1), 0).getTime();
-    return mkWin(atHour(d, 8, 30), atHour(d, 18), now, isTomorrow ? 'tomorrow' : 'auto');
+    return mkWin(atHour(d, 9), atHour(d, 17, 30), now, isTomorrow ? 'tomorrow' : 'auto');
   }
   if (occasionId === 'casual') return windowForPreset('now', occasionId, now);
   if (occasionId === 'beach' || occasionId === 'outdoor') return h < 14.5 ? windowForPreset('today', occasionId, now) : windowForPreset('tomorrow', occasionId, now);
@@ -237,7 +246,7 @@ export function rank({ collection, occasionId, variant = null, window: win, weat
   const key = variant && OCC_W[`${occasionId}:${variant}`] ? `${occasionId}:${variant}` : occasionId;
   const W = WEIGHTS[occasionId] || WEIGHTS.default;
   const occW = OCC_W[key] || OCC_W.casual;
-  const hours = clamp(win?.hours || 5, 3, 10);
+  const hours = clamp(Math.max(win?.hours || 0, occ.duration || 4), 3, 10);
   const nightShare = weather?.nightShare != null ? weather.nightShare : (win ? nightShareOf(win) : 0.5);
   const outside = weather?.feelsMean ?? weather?.tempMean ?? 24;          // fallback: a typical Brisbane day
   const shownTemp = weather?.tempMean ?? outside;
