@@ -1,6 +1,6 @@
 # Scent Pick — PWA build brief (for the UI build worker)
 
-Repo: /Users/jamesnoye/Desktop/PuntersTech/scentpick. The app lives in `docs/` and will be served by GitHub Pages at
+Repo: /Users/jamesnoye/Desktop/scentpick. The app lives in `docs/` and will be served by GitHub Pages at
 `https://<user>.github.io/scentpick/` — so EVERY path must be relative (`./app.js`, `./data/collection.json`), manifest
 `start_url`/`scope` = `./`, service worker registered as `./sw.js` with scope `./`.
 

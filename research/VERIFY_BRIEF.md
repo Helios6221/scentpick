@@ -1,7 +1,7 @@
 # Verification brief (you did NOT do the research; check it)
 
 Goal: every number and the bottle identity in `research/bottles/<id>.json` must be traceable to the Parfumo page for the
-EXACT bottle. Work from `/Users/jamesnoye/Desktop/PuntersTech/scentpick/research`. Use Bash (`cat`, `python3`), not WebFetch.
+EXACT bottle. Work from `/Users/jamesnoye/Desktop/scentpick/research`. Use Bash (`cat`, `python3`), not WebFetch.
 
 For each bottle assigned to you:
 

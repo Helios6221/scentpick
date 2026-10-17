@@ -5,7 +5,7 @@ Copy numbers from the source. Never fill a gap from memory, from an individual r
 is "inspired by". If a number is not on the page, write `null` and say so in `flags`. Do not deliberate; this is mechanical.
 
 ## Tool (already tested — use it, do not write your own fetcher, do not use WebFetch on Parfumo, do not use browser tools)
-Run from `/Users/jamesnoye/Desktop/PuntersTech/scentpick/research`:
+Run from `/Users/jamesnoye/Desktop/scentpick/research`:
 
 1. Find the page:  `python3 tools/parfumo_fetch.py search "<name words>"`
    Prints candidates with brand, name, year, scent avg + votes, url. Try 1-3 different queries if needed
@@ -30,7 +30,7 @@ Only if the Parfumo page is missing or has fewer than 10 scent votes: try ONE `W
 (find it with WebSearch). If it returns a Cloudflare/"Just a moment" page, JS-only content, or anything you cannot read
 numbers from, set `fragrantica: null` and add a flag. Any number you do record must say method "webfetch (model-extracted, unverified)".
 
-## Output file: /Users/jamesnoye/Desktop/PuntersTech/scentpick/research/bottles/<id>.json
+## Output file: /Users/jamesnoye/Desktop/scentpick/research/bottles/<id>.json
 Write it with a Bash heredoc (`cat > file <<'EOF' ... EOF`). Exact shape:
 {
   "id": "<id>",

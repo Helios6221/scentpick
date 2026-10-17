@@ -1,7 +1,7 @@
 # Scent Pick — progress log (survives context resets)
 
 App: iPhone home-screen PWA that ranks James's fragrances by occasion + time of day + Sherwood (Brisbane) weather.
-Repo root: /Users/jamesnoye/Desktop/PuntersTech/scentpick  (app in docs/, served by GitHub Pages; research in research/)
+Repo root: /Users/jamesnoye/Desktop/scentpick  (app in docs/, served by GitHub Pages; research in research/)
 
 ## Environment facts (checked 2026-10-17)
 - Parfumo works with plain curl. Charts come from POST /action/perfume/get_classification_chart.php (params in page JS). Extractor: research/tools/parfumo_fetch.py (search + page). Tested on Rayhaan Obsidian.
@@ -54,3 +54,4 @@ rayhaan-jungle-vibe, rayhaan-aquatica, bujairami-vibration, maison-alhambra-eter
 - Engine after visual review: dressy-occasion penalty for beach scents; weather weight scales with outside extremity (heatwave x1.6); stronger muggy penalty; grades capped to 'Good' when weather/occasion fit is poor, and never improve down the list; "wants sun" chip only for clear cases.
 - STATUS: app complete locally, git repo initialised with everything committed. NOT yet pushed: gh CLI not installed, no GitHub SSH key — James must run the README steps (brew install gh; gh auth login; gh repo create ...). Fresh-fetch re-verification of Parfumo numbers still pending while Cloudflare 403 persists.
 - Fresh re-fetch completed (network changed to phone hotspot, Parfumo HTTP 200 again): all 13 bottles re-fetched and compared field by field — NO drift in any rating, vote count, chart % or notes; parfumo.retrieved/method updated, raw/<id>.fresh.* saved. Bois de Bois re-searched: still not on Parfumo (3 queries). Candidates backfilled for Italia, Vulcan Feu, Eternal Touch, Jungle Vibe, Vibration. Fragrantica still Cloudflare-blocked for curl. Collection rebuilt; sweep unchanged.
+- 2026-10-17 20:25 Moved repo to /Users/jamesnoye/Desktop/scentpick (out of the PuntersTech work folder).

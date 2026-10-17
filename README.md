@@ -24,7 +24,7 @@ One-time setup (about five minutes):
    ```
 2. From this folder, create the repository and push:
    ```sh
-   cd /Users/jamesnoye/Desktop/PuntersTech/scentpick
+   cd /Users/jamesnoye/Desktop/scentpick
    gh repo create scentpick --public --source=. --remote=origin --push
    ```
    GitHub Pages on a free account needs a public repo. The data is community averages and a list of bottles, nothing private.
