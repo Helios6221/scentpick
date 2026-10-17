@@ -9,12 +9,55 @@
   "genderLabel": "for women and men",
   "matchCheck": "Parfumo house 'Bujairami' and name 'Vibration' match the user wording exactly. Year 2026, gender 'for women and men' (page text: 'A new perfume by Bujairami for women and men, released in 2026'; corrected by verification 2026-10-17 from the saved page after a gender_label parser bug)."
  },
- "candidates": [],
+ "candidates": [
+  {
+   "brand": "Initio",
+   "name": "Addictive Vibration",
+   "year": 2016,
+   "url": "https://www.parfumo.com/Perfumes/Initio/Addictive_Vibration",
+   "scent_votes": 396
+  },
+  {
+   "brand": "Biotherm",
+   "name": "Eau Vitaminée Vibration Bergamote",
+   "year": 2015,
+   "url": "https://www.parfumo.com/Perfumes/Biotherm/eau-vitaminee-vibration-bergamote-l-eau-the-energizing-fragrance-of-lait-corporel",
+   "scent_votes": 149
+  },
+  {
+   "brand": "Zara",
+   "name": "Vanilla Vibration",
+   "year": 2023,
+   "url": "https://www.parfumo.com/Perfumes/Zara/vanilla-vibration",
+   "scent_votes": 148
+  },
+  {
+   "brand": "Roos & Roos",
+   "name": "Oud Vibration",
+   "year": 2017,
+   "url": "https://www.parfumo.com/Perfumes/Roos_Roos/Oud_Vibration",
+   "scent_votes": 54
+  },
+  {
+   "brand": "Bujairami",
+   "name": "Vibration",
+   "year": 2026,
+   "url": "https://www.parfumo.com/Perfumes/bujairami/vibration",
+   "scent_votes": 44
+  },
+  {
+   "brand": "Ghawali",
+   "name": "Musical Vibrations Parfum",
+   "year": 2022,
+   "url": "https://www.parfumo.com/Perfumes/Ghawali/musical-vibrations-parfum",
+   "scent_votes": 32
+  }
+ ],
  "ambiguity": null,
  "parfumo": {
   "url": "https://www.parfumo.com/Perfumes/bujairami/vibration",
   "retrieved": "2026-10-17",
-  "method": "curl via tools/parfumo_fetch.py",
+  "method": "curl via tools/parfumo_fetch.py (fresh re-fetch 2026-10-17 after verification against saved source)",
   "data": {
    "http_status": 200,
    "url": "https://www.parfumo.com/Perfumes/bujairami/vibration",
@@ -159,5 +202,6 @@
   "thin data: audience_style chart based on 21 votes (<30); Masculine 100% / Feminine 0% rests on 21 votes and the page label is 'for women and men'",
   "thin data (caution, >=30): occasion chart 35 votes; all ratings based on only 43-47 votes (2026 release)"
  ],
- "issues": "none"
+ "issues": "none",
+ "candidates_note": "backfilled 2026-10-17 from Parfumo search 'Vibration'"
 }

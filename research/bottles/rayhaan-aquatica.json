@@ -1,167 +1,167 @@
 {
-  "id": "rayhaan-aquatica",
-  "userName": "Rayhaan Aquatica",
-  "identity": {
-    "house": "Rayhaan",
-    "name": "Aquatica",
-    "year": 2025,
-    "concentration": null,
-    "genderLabel": "for men",
-    "matchCheck": "Search and page confirmed exact match: Rayhaan (house) + Aquatica (name), 2025 release. Gender label is 'for men'."
-  },
-  "candidates": [
+ "id": "rayhaan-aquatica",
+ "userName": "Rayhaan Aquatica",
+ "identity": {
+  "house": "Rayhaan",
+  "name": "Aquatica",
+  "year": 2025,
+  "concentration": null,
+  "genderLabel": "for men",
+  "matchCheck": "Search and page confirmed exact match: Rayhaan (house) + Aquatica (name), 2025 release. Gender label is 'for men'."
+ },
+ "candidates": [
+  {
+   "brand": "Rayhaan",
+   "name": "Aquatica",
+   "year": 2025,
+   "url": "https://www.parfumo.com/Perfumes/rayhaan/aquatica",
+   "scent_votes": 881
+  }
+ ],
+ "ambiguity": null,
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/rayhaan/aquatica",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py (fresh re-fetch 2026-10-17 after verification against saved source)",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/rayhaan/aquatica",
+   "fetched": "2026-10-17",
+   "title": "Aquatica by Rayhaan » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Aquatica Rayhaan 2025",
+   "meta_description": "Aqua Collection | Aquatica Rayhaan:  Popular  citrusy-fresh new Fragrance Release from 2025 ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "Rayhaan",
+   "name": "Aquatica",
+   "year": 2025,
+   "concentration_hint": null,
+   "gender_label": "for men",
+   "overall": {
+    "avg": 8.3,
+    "votes": 886
+   },
+   "ratings": {
+    "scent": {
+     "avg": 8.3,
+     "votes": 886
+    },
+    "longevity": {
+     "avg": 7.3,
+     "votes": 833
+    },
+    "sillage": {
+     "avg": 7.1,
+     "votes": 836
+    },
+    "bottle": {
+     "avg": 7.7,
+     "votes": 810
+    },
+    "value": {
+     "avg": 8.8,
+     "votes": 802
+    }
+   },
+   "main_accords": [
     {
-      "brand": "Rayhaan",
-      "name": "Aquatica",
-      "year": 2025,
-      "url": "https://www.parfumo.com/Perfumes/rayhaan/aquatica",
-      "scent_votes": 881
+     "accord": "Citrus",
+     "size": "l"
+    },
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Sweet",
+     "size": "m"
+    },
+    {
+     "accord": "Creamy",
+     "size": "m"
+    },
+    {
+     "accord": "Fruity",
+     "size": "m"
     }
-  ],
-  "ambiguity": null,
-  "parfumo": {
-    "url": "https://www.parfumo.com/Perfumes/rayhaan/aquatica",
-    "retrieved": "2026-10-17",
-    "method": "curl via tools/parfumo_fetch.py",
-    "data": {
-      "http_status": 200,
-      "url": "https://www.parfumo.com/Perfumes/rayhaan/aquatica",
-      "fetched": "2026-10-17",
-      "title": "Aquatica by Rayhaan » Reviews & Perfume Facts",
-      "is_404": false,
-      "no_ratings_text": false,
-      "h1_text": "Aquatica Rayhaan 2025",
-      "meta_description": "Aqua Collection | Aquatica Rayhaan:  Popular  citrusy-fresh new Fragrance Release from 2025 ✓ Honest reviews & how it smells like » Discover more",
-      "brand": "Rayhaan",
-      "name": "Aquatica",
-      "year": 2025,
-      "concentration_hint": null,
-      "gender_label": "for men",
-      "overall": {
-        "avg": 8.3,
-        "votes": 886
-      },
-      "ratings": {
-        "scent": {
-          "avg": 8.3,
-          "votes": 886
-        },
-        "longevity": {
-          "avg": 7.3,
-          "votes": 833
-        },
-        "sillage": {
-          "avg": 7.1,
-          "votes": 836
-        },
-        "bottle": {
-          "avg": 7.7,
-          "votes": 810
-        },
-        "value": {
-          "avg": 8.8,
-          "votes": 802
-        }
-      },
-      "main_accords": [
-        {
-          "accord": "Citrus",
-          "size": "l"
-        },
-        {
-          "accord": "Fresh",
-          "size": "l"
-        },
-        {
-          "accord": "Sweet",
-          "size": "m"
-        },
-        {
-          "accord": "Creamy",
-          "size": "m"
-        },
-        {
-          "accord": "Fruity",
-          "size": "m"
-        }
-      ],
-      "notes": {
-        "top": [
-          "Lime",
-          "Coconut",
-          "Bergamot",
-          "Mandarin orange"
-        ],
-        "heart": [
-          "Ginger",
-          "Hibiscus",
-          "Ylang-ylang",
-          "Jasmine"
-        ],
-        "base": [
-          "Musk",
-          "Sugar cane",
-          "White rum"
-        ]
-      },
-      "counts": {
-        "reviews": 78,
-        "statements": 222,
-        "photos": 13
-      },
-      "submitted": {
-        "by": "Skrwail ",
-        "updated": "16/10/2026"
-      },
-      "charts": {
-        "type": {
-          "pct": {
-            "Aquatic": 10,
-            "Fruity": 13,
-            "Creamy": 14,
-            "Sweet": 16,
-            "Citrus": 24,
-            "Fresh": 23
-          },
-          "votes": 635
-        },
-        "occasion": {
-          "pct": {
-            "Evening": 10,
-            "Business": 11,
-            "Night Out": 12,
-            "Sport": 15,
-            "Leisure": 27,
-            "Daily": 25
-          },
-          "votes": 527
-        },
-        "season": {
-          "pct": {
-            "Fall": 9,
-            "Spring": 38,
-            "Summer": 53
-          },
-          "votes": 322
-        },
-        "audience_style": {
-          "pct": {
-            "Masculine": 69,
-            "Feminine": 31,
-            "Modern": 88,
-            "Classic": 12
-          },
-          "votes": 357
-        }
-      },
-      "chart_raw_votes_text": null,
-      "chart_raw_text": "Type Aquatic 10% Fruity 13% Creamy 14% Sweet 16% Citrus 24% Fresh 23% 635 Votes Occasion Evening 10% Business 11% Night Out 12% Sport 15% Leisure 27% Daily 25% 527 Votes Season Fall 9% Spring 38% Summer 53% 322 Votes Audience & Style Masculine 69% Feminine 31% Modern 88% Classic 12% 357 Votes"
+   ],
+   "notes": {
+    "top": [
+     "Lime",
+     "Coconut",
+     "Bergamot",
+     "Mandarin orange"
+    ],
+    "heart": [
+     "Ginger",
+     "Hibiscus",
+     "Ylang-ylang",
+     "Jasmine"
+    ],
+    "base": [
+     "Musk",
+     "Sugar cane",
+     "White rum"
+    ]
+   },
+   "counts": {
+    "reviews": 78,
+    "statements": 222,
+    "photos": 13
+   },
+   "submitted": {
+    "by": "Skrwail ",
+    "updated": "16/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Aquatic": 10,
+      "Fruity": 13,
+      "Creamy": 14,
+      "Sweet": 16,
+      "Citrus": 24,
+      "Fresh": 23
+     },
+     "votes": 635
+    },
+    "occasion": {
+     "pct": {
+      "Evening": 10,
+      "Business": 11,
+      "Night Out": 12,
+      "Sport": 15,
+      "Leisure": 27,
+      "Daily": 25
+     },
+     "votes": 527
+    },
+    "season": {
+     "pct": {
+      "Fall": 9,
+      "Spring": 38,
+      "Summer": 53
+     },
+     "votes": 322
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 69,
+      "Feminine": 31,
+      "Modern": 88,
+      "Classic": 12
+     },
+     "votes": 357
     }
-  },
-  "fragrantica": null,
-  "scentSummary": "A fresh citrus composition built on lime, bergamot and mandarin orange, with a floral heart of jasmine and ginger, finishing in a sweet base of musk and sugar cane.",
-  "flags": [
-    "concentration_hint null"
-  ],
-  "issues": "none"
+   },
+   "chart_raw_votes_text": null,
+   "chart_raw_text": "Type Aquatic 10% Fruity 13% Creamy 14% Sweet 16% Citrus 24% Fresh 23% 635 Votes Occasion Evening 10% Business 11% Night Out 12% Sport 15% Leisure 27% Daily 25% 527 Votes Season Fall 9% Spring 38% Summer 53% 322 Votes Audience & Style Masculine 69% Feminine 31% Modern 88% Classic 12% 357 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "A fresh citrus composition built on lime, bergamot and mandarin orange, with a floral heart of jasmine and ginger, finishing in a sweet base of musk and sugar cane.",
+ "flags": [
+  "concentration_hint null"
+ ],
+ "issues": "none"
 }

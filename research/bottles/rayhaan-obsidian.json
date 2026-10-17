@@ -22,7 +22,7 @@
  "parfumo": {
   "url": "https://www.parfumo.com/Perfumes/rayhaan/obsidian",
   "retrieved": "2026-10-17",
-  "method": "curl via tools/parfumo_fetch.py",
+  "method": "curl via tools/parfumo_fetch.py (fresh re-fetch 2026-10-17 after verification against saved source)",
   "data": {
    "http_status": 200,
    "url": "https://www.parfumo.com/Perfumes/rayhaan/obsidian",
@@ -144,6 +144,7 @@
      "votes": 86
     }
    },
+   "chart_raw_votes_text": null,
    "chart_raw_text": "Type Creamy 6% Spicy 8% Floral 12% Woody 15% Powdery 23% Leathery 19% Sweet 17% 155 Votes Occasion Leisure 11% Daily 11% Business 15% Evening 32% Night Out 31% 119 Votes Season Summer 5% Spring 24% Fall 35% Winter 36% 105 Votes Audience & Style Masculine 89% Feminine 11% Modern 60% Classic 40% 86 Votes"
   }
  },

@@ -9,12 +9,20 @@
   "genderLabel": "for women and men",
   "matchCheck": "Brand and name match exactly. Search listing showed Maison Alhambra Eternal Touch with 73 scent votes; page confirms identity and metrics."
  },
- "candidates": [],
+ "candidates": [
+  {
+   "brand": "Maison Alhambra",
+   "name": "Eternal Touch",
+   "year": null,
+   "url": "https://www.parfumo.com/Perfumes/maison-alhambra/eternal-touch-tobacco-touch",
+   "scent_votes": 73
+  }
+ ],
  "ambiguity": null,
  "parfumo": {
   "url": "https://www.parfumo.com/Perfumes/maison-alhambra/eternal-touch-tobacco-touch",
   "retrieved": "2026-10-17",
-  "method": "curl via tools/parfumo_fetch.py",
+  "method": "curl via tools/parfumo_fetch.py (fresh re-fetch 2026-10-17 after verification against saved source)",
   "data": {
    "http_status": 200,
    "url": "https://www.parfumo.com/Perfumes/maison-alhambra/eternal-touch-tobacco-touch",
@@ -151,5 +159,6 @@
  "flags": [
   "concentration_hint is null"
  ],
- "issues": "none"
+ "issues": "none",
+ "candidates_note": "backfilled 2026-10-17 from Parfumo search 'Eternal Touch'"
 }

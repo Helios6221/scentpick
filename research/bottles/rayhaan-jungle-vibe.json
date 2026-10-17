@@ -9,12 +9,20 @@
   "genderLabel": "for women and men",
   "matchCheck": "Searched 'Jungle Vibe' and found exact match on Parfumo: Rayhaan Jungle Vibe (2025). House, name, and year all match the bottle ID and user wording."
  },
- "candidates": [],
+ "candidates": [
+  {
+   "brand": "Rayhaan",
+   "name": "Jungle Vibe",
+   "year": 2025,
+   "url": "https://www.parfumo.com/Perfumes/rayhaan/jungle-vibe",
+   "scent_votes": 144
+  }
+ ],
  "ambiguity": null,
  "parfumo": {
   "url": "https://www.parfumo.com/Perfumes/rayhaan/jungle-vibe",
   "retrieved": "2026-10-17",
-  "method": "curl via tools/parfumo_fetch.py",
+  "method": "curl via tools/parfumo_fetch.py (fresh re-fetch 2026-10-17 after verification against saved source)",
   "data": {
    "http_status": 200,
    "url": "https://www.parfumo.com/Perfumes/rayhaan/jungle-vibe",
@@ -149,5 +157,6 @@
   "no pyramid (flat notes only)",
   "concentration_hint null"
  ],
- "issues": "none"
+ "issues": "none",
+ "candidates_note": "backfilled 2026-10-17 from Parfumo search 'Jungle Vibe'"
 }

@@ -9,12 +9,20 @@
   "genderLabel": "for women and men",
   "matchCheck": "Parfumo lists the fragrance as 'Feu' by French Avenue (2025). 'Vulcan' appears in the meta description but not in the primary name; this is a collection/reference name. House and year match exactly; name partially matches (Feu vs. Vulcan Feu)."
  },
- "candidates": [],
+ "candidates": [
+  {
+   "brand": "French Avenue",
+   "name": "Feu",
+   "year": 2025,
+   "url": "https://www.parfumo.com/Perfumes/french-avenue/feu",
+   "scent_votes": 1211
+  }
+ ],
  "ambiguity": null,
  "parfumo": {
   "url": "https://www.parfumo.com/Perfumes/french-avenue/feu",
   "retrieved": "2026-10-17",
-  "method": "curl via tools/parfumo_fetch.py",
+  "method": "curl via tools/parfumo_fetch.py (fresh re-fetch 2026-10-17 after verification against saved source)",
   "data": {
    "http_status": 200,
    "url": "https://www.parfumo.com/Perfumes/french-avenue/feu",
@@ -156,5 +164,6 @@
  "flags": [
   "no concentration_hint"
  ],
- "issues": "none"
+ "issues": "none",
+ "candidates_note": "backfilled 2026-10-17 from Parfumo search 'Vulcan Feu'"
 }

@@ -1,183 +1,183 @@
 {
-  "id": "rayhaan-terra",
-  "userName": "Rayhaan Terra",
-  "identity": {
-    "house": "Rayhaan",
-    "name": "Terra",
-    "year": 2025,
-    "concentration": null,
-    "genderLabel": "for men",
-    "matchCheck": "Search and Parfumo page both confirm Rayhaan / Terra 2025. House and name match user's wording exactly."
-  },
-  "candidates": [
+ "id": "rayhaan-terra",
+ "userName": "Rayhaan Terra",
+ "identity": {
+  "house": "Rayhaan",
+  "name": "Terra",
+  "year": 2025,
+  "concentration": null,
+  "genderLabel": "for men",
+  "matchCheck": "Search and Parfumo page both confirm Rayhaan / Terra 2025. House and name match user's wording exactly."
+ },
+ "candidates": [
+  {
+   "brand": "Rayhaan",
+   "name": "Terra",
+   "year": 2025,
+   "url": "https://www.parfumo.com/Perfumes/rayhaan/terra",
+   "scent_votes": 606
+  }
+ ],
+ "ambiguity": null,
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/rayhaan/terra",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py (fresh re-fetch 2026-10-17 after verification against saved source)",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/rayhaan/terra",
+   "fetched": "2026-10-17",
+   "title": "Terra by Rayhaan » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Terra Rayhaan 2025",
+   "meta_description": "Terra Rayhaan:  Popular  spicy-oriental new Fragrance Release from 2025 ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "Rayhaan",
+   "name": "Terra",
+   "year": 2025,
+   "concentration_hint": null,
+   "gender_label": "for men",
+   "overall": {
+    "avg": 8.3,
+    "votes": 606
+   },
+   "ratings": {
+    "scent": {
+     "avg": 8.3,
+     "votes": 606
+    },
+    "longevity": {
+     "avg": 8.6,
+     "votes": 562
+    },
+    "sillage": {
+     "avg": 8.4,
+     "votes": 566
+    },
+    "bottle": {
+     "avg": 7.5,
+     "votes": 541
+    },
+    "value": {
+     "avg": 9.2,
+     "votes": 540
+    }
+   },
+   "main_accords": [
     {
-      "brand": "Rayhaan",
-      "name": "Terra",
-      "year": 2025,
-      "url": "https://www.parfumo.com/Perfumes/rayhaan/terra",
-      "scent_votes": 606
+     "accord": "Spicy",
+     "size": "l"
+    },
+    {
+     "accord": "Oriental",
+     "size": "l"
+    },
+    {
+     "accord": "Resinous",
+     "size": "m"
+    },
+    {
+     "accord": "Woody",
+     "size": "m"
+    },
+    {
+     "accord": "Sweet",
+     "size": "s"
     }
-  ],
-  "ambiguity": null,
-  "parfumo": {
-    "url": "https://www.parfumo.com/Perfumes/rayhaan/terra",
-    "retrieved": "2026-10-17",
-    "method": "curl via tools/parfumo_fetch.py",
-    "data": {
-      "http_status": 200,
-      "url": "https://www.parfumo.com/Perfumes/rayhaan/terra",
-      "fetched": "2026-10-17",
-      "title": "Terra by Rayhaan » Reviews & Perfume Facts",
-      "is_404": false,
-      "no_ratings_text": false,
-      "h1_text": "Terra Rayhaan 2025",
-      "meta_description": "Terra Rayhaan:  Popular  spicy-oriental new Fragrance Release from 2025 ✓ Honest reviews & how it smells like » Discover more",
-      "brand": "Rayhaan",
-      "name": "Terra",
-      "year": 2025,
-      "concentration_hint": null,
-      "gender_label": "for men",
-      "overall": {
-        "avg": 8.3,
-        "votes": 606
-      },
-      "ratings": {
-        "scent": {
-          "avg": 8.3,
-          "votes": 606
-        },
-        "longevity": {
-          "avg": 8.6,
-          "votes": 562
-        },
-        "sillage": {
-          "avg": 8.4,
-          "votes": 566
-        },
-        "bottle": {
-          "avg": 7.5,
-          "votes": 541
-        },
-        "value": {
-          "avg": 9.2,
-          "votes": 540
-        }
-      },
-      "main_accords": [
-        {
-          "accord": "Spicy",
-          "size": "l"
-        },
-        {
-          "accord": "Oriental",
-          "size": "l"
-        },
-        {
-          "accord": "Resinous",
-          "size": "m"
-        },
-        {
-          "accord": "Woody",
-          "size": "m"
-        },
-        {
-          "accord": "Sweet",
-          "size": "s"
-        }
-      ],
-      "notes": {
-        "top": [
-          "Cardamom",
-          "Frankincense",
-          "Lemon",
-          "Bergamot",
-          "Elemi resin",
-          "Sichuan pepper"
-        ],
-        "heart": [
-          "Patchouli",
-          "Saffron",
-          "Coriander",
-          "Cumin",
-          "Orange blossom",
-          "Vermouth",
-          "Aniseed",
-          "Geranium",
-          "Rose"
-        ],
-        "base": [
-          "Amber",
-          "Frankincense",
-          "Labdanum",
-          "Benzoin",
-          "Maltol",
-          "Opoponax",
-          "Ambergris",
-          "Musk",
-          "Vanilla",
-          "Birch",
-          "Oud"
-        ]
-      },
-      "counts": {
-        "reviews": 36,
-        "statements": 155,
-        "photos": 11
-      },
-      "submitted": {
-        "by": "Randomodnar ",
-        "updated": "16/10/2026"
-      },
-      "charts": {
-        "type": {
-          "pct": {
-            "Citrus": 6,
-            "Earthy": 6,
-            "Smoky": 8,
-            "Sweet": 11,
-            "Woody": 13,
-            "Spicy": 21,
-            "Oriental": 19,
-            "Resinous": 16
-          },
-          "votes": 488
-        },
-        "occasion": {
-          "pct": {
-            "Business": 9,
-            "Daily": 11,
-            "Leisure": 19,
-            "Evening": 31,
-            "Night Out": 29
-          },
-          "votes": 310
-        },
-        "season": {
-          "pct": {
-            "Spring": 22,
-            "Fall": 39,
-            "Winter": 39
-          },
-          "votes": 267
-        },
-        "audience_style": {
-          "pct": {
-            "Masculine": 86,
-            "Feminine": 14,
-            "Modern": 84,
-            "Classic": 16
-          },
-          "votes": 201
-        }
-      },
-      "chart_raw_votes_text": null,
-      "chart_raw_text": "Type Citrus 6% Earthy 6% Smoky 8% Sweet 11% Woody 13% Spicy 21% Oriental 19% Resinous 16% 488 Votes Occasion Business 9% Daily 11% Leisure 19% Evening 31% Night Out 29% 310 Votes Season Spring 22% Fall 39% Winter 39% 267 Votes Audience & Style Masculine 86% Feminine 14% Modern 84% Classic 16% 201 Votes"
+   ],
+   "notes": {
+    "top": [
+     "Cardamom",
+     "Frankincense",
+     "Lemon",
+     "Bergamot",
+     "Elemi resin",
+     "Sichuan pepper"
+    ],
+    "heart": [
+     "Patchouli",
+     "Saffron",
+     "Coriander",
+     "Cumin",
+     "Orange blossom",
+     "Vermouth",
+     "Aniseed",
+     "Geranium",
+     "Rose"
+    ],
+    "base": [
+     "Amber",
+     "Frankincense",
+     "Labdanum",
+     "Benzoin",
+     "Maltol",
+     "Opoponax",
+     "Ambergris",
+     "Musk",
+     "Vanilla",
+     "Birch",
+     "Oud"
+    ]
+   },
+   "counts": {
+    "reviews": 36,
+    "statements": 155,
+    "photos": 11
+   },
+   "submitted": {
+    "by": "Randomodnar ",
+    "updated": "16/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Citrus": 6,
+      "Earthy": 6,
+      "Smoky": 8,
+      "Sweet": 11,
+      "Woody": 13,
+      "Spicy": 21,
+      "Oriental": 19,
+      "Resinous": 16
+     },
+     "votes": 488
+    },
+    "occasion": {
+     "pct": {
+      "Business": 9,
+      "Daily": 11,
+      "Leisure": 19,
+      "Evening": 31,
+      "Night Out": 29
+     },
+     "votes": 310
+    },
+    "season": {
+     "pct": {
+      "Spring": 22,
+      "Fall": 39,
+      "Winter": 39
+     },
+     "votes": 267
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 86,
+      "Feminine": 14,
+      "Modern": 84,
+      "Classic": 16
+     },
+     "votes": 201
     }
-  },
-  "fragrantica": null,
-  "scentSummary": "A spicy-oriental composition opening with cardamom and frankincense, developing through saffron and patchouli in the heart, settling into a warm resinous-woody base of amber, oud, and vanilla.",
-  "flags": [
-    "concentration_hint null"
-  ],
-  "issues": "none"
+   },
+   "chart_raw_votes_text": null,
+   "chart_raw_text": "Type Citrus 6% Earthy 6% Smoky 8% Sweet 11% Woody 13% Spicy 21% Oriental 19% Resinous 16% 488 Votes Occasion Business 9% Daily 11% Leisure 19% Evening 31% Night Out 29% 310 Votes Season Spring 22% Fall 39% Winter 39% 267 Votes Audience & Style Masculine 86% Feminine 14% Modern 84% Classic 16% 201 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "A spicy-oriental composition opening with cardamom and frankincense, developing through saffron and patchouli in the heart, settling into a warm resinous-woody base of amber, oud, and vanilla.",
+ "flags": [
+  "concentration_hint null"
+ ],
+ "issues": "none"
 }

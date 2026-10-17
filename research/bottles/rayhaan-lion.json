@@ -1,170 +1,170 @@
 {
-  "id": "rayhaan-lion",
-  "userName": "Rayhaan Lion",
-  "identity": {
-    "house": "Rayhaan",
-    "name": "Lion",
-    "year": 2024,
-    "concentration": null,
-    "genderLabel": "for men",
-    "matchCheck": "House and name match search. Single result found: Rayhaan Lion (2024). No edition/concentration words present."
-  },
-  "candidates": [
+ "id": "rayhaan-lion",
+ "userName": "Rayhaan Lion",
+ "identity": {
+  "house": "Rayhaan",
+  "name": "Lion",
+  "year": 2024,
+  "concentration": null,
+  "genderLabel": "for men",
+  "matchCheck": "House and name match search. Single result found: Rayhaan Lion (2024). No edition/concentration words present."
+ },
+ "candidates": [
+  {
+   "brand": "Rayhaan",
+   "name": "Lion",
+   "year": 2024,
+   "url": "https://www.parfumo.com/Perfumes/rayhaan/lion",
+   "scent_votes": 207
+  }
+ ],
+ "ambiguity": null,
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/rayhaan/lion",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py (fresh re-fetch 2026-10-17 after verification against saved source)",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/rayhaan/lion",
+   "fetched": "2026-10-17",
+   "title": "Lion by Rayhaan » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Lion Rayhaan 2024",
+   "meta_description": "Rayhaan Collection | Lion Rayhaan:  Popular  sweet-spicy fragrance from 2024 ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "Rayhaan",
+   "name": "Lion",
+   "year": 2024,
+   "concentration_hint": null,
+   "gender_label": "for men",
+   "overall": {
+    "avg": 8.5,
+    "votes": 208
+   },
+   "ratings": {
+    "scent": {
+     "avg": 8.5,
+     "votes": 208
+    },
+    "longevity": {
+     "avg": 8.5,
+     "votes": 197
+    },
+    "sillage": {
+     "avg": 8.3,
+     "votes": 197
+    },
+    "bottle": {
+     "avg": 8.2,
+     "votes": 197
+    },
+    "value": {
+     "avg": 9.2,
+     "votes": 195
+    }
+   },
+   "main_accords": [
     {
-      "brand": "Rayhaan",
-      "name": "Lion",
-      "year": 2024,
-      "url": "https://www.parfumo.com/Perfumes/rayhaan/lion",
-      "scent_votes": 207
+     "accord": "Sweet",
+     "size": "l"
+    },
+    {
+     "accord": "Spicy",
+     "size": "l"
+    },
+    {
+     "accord": "Fruity",
+     "size": "m"
+    },
+    {
+     "accord": "Fresh",
+     "size": "s"
+    },
+    {
+     "accord": "Oriental",
+     "size": "s"
     }
-  ],
-  "ambiguity": null,
-  "parfumo": {
-    "url": "https://www.parfumo.com/Perfumes/rayhaan/lion",
-    "retrieved": "2026-10-17",
-    "method": "curl via tools/parfumo_fetch.py",
-    "data": {
-      "http_status": 200,
-      "url": "https://www.parfumo.com/Perfumes/rayhaan/lion",
-      "fetched": "2026-10-17",
-      "title": "Lion by Rayhaan » Reviews & Perfume Facts",
-      "is_404": false,
-      "no_ratings_text": false,
-      "h1_text": "Lion Rayhaan 2024",
-      "meta_description": "Rayhaan Collection | Lion Rayhaan:  Popular  sweet-spicy fragrance from 2024 ✓ Honest reviews & how it smells like » Discover more",
-      "brand": "Rayhaan",
-      "name": "Lion",
-      "year": 2024,
-      "concentration_hint": null,
-      "gender_label": "for men",
-      "overall": {
-        "avg": 8.5,
-        "votes": 208
-      },
-      "ratings": {
-        "scent": {
-          "avg": 8.5,
-          "votes": 208
-        },
-        "longevity": {
-          "avg": 8.5,
-          "votes": 197
-        },
-        "sillage": {
-          "avg": 8.3,
-          "votes": 197
-        },
-        "bottle": {
-          "avg": 8.2,
-          "votes": 197
-        },
-        "value": {
-          "avg": 9.2,
-          "votes": 195
-        }
-      },
-      "main_accords": [
-        {
-          "accord": "Sweet",
-          "size": "l"
-        },
-        {
-          "accord": "Spicy",
-          "size": "l"
-        },
-        {
-          "accord": "Fruity",
-          "size": "m"
-        },
-        {
-          "accord": "Fresh",
-          "size": "s"
-        },
-        {
-          "accord": "Oriental",
-          "size": "s"
-        }
-      ],
-      "notes": {
-        "top": [
-          "Pear",
-          "Lavender",
-          "Mint",
-          "Bergamot"
-        ],
-        "heart": [
-          "Cinnamon",
-          "Clary sage",
-          "Cumin"
-        ],
-        "base": [
-          "Vanilla",
-          "Amber",
-          "Patchouli",
-          "Cedar"
-        ]
-      },
-      "counts": {
-        "reviews": 10,
-        "statements": 29,
-        "photos": 5
-      },
-      "submitted": {
-        "by": "Skrwail ",
-        "updated": "11/10/2026"
-      },
-      "charts": {
-        "type": {
-          "pct": {
-            "Floral": 5,
-            "Powdery": 6,
-            "Creamy": 7,
-            "Synthetic": 7,
-            "Oriental": 9,
-            "Fresh": 10,
-            "Sweet": 25,
-            "Spicy": 17,
-            "Fruity": 14
-          },
-          "votes": 156
-        },
-        "occasion": {
-          "pct": {
-            "Business": 11,
-            "Daily": 16,
-            "Leisure": 20,
-            "Night Out": 27,
-            "Evening": 26
-          },
-          "votes": 127
-        },
-        "season": {
-          "pct": {
-            "Summer": 8,
-            "Spring": 25,
-            "Winter": 32,
-            "Fall": 35
-          },
-          "votes": 111
-        },
-        "audience_style": {
-          "pct": {
-            "Masculine": 98,
-            "Feminine": 2,
-            "Modern": 91,
-            "Classic": 9
-          },
-          "votes": 74
-        }
-      },
-      "chart_raw_votes_text": null,
-      "chart_raw_text": "Type Floral 5% Powdery 6% Creamy 7% Synthetic 7% Oriental 9% Fresh 10% Sweet 25% Spicy 17% Fruity 14% 156 Votes Occasion Business 11% Daily 16% Leisure 20% Night Out 27% Evening 26% 127 Votes Season Summer 8% Spring 25% Winter 32% Fall 35% 111 Votes Audience & Style Masculine 98% Feminine 2% Modern 91% Classic 9% 74 Votes"
+   ],
+   "notes": {
+    "top": [
+     "Pear",
+     "Lavender",
+     "Mint",
+     "Bergamot"
+    ],
+    "heart": [
+     "Cinnamon",
+     "Clary sage",
+     "Cumin"
+    ],
+    "base": [
+     "Vanilla",
+     "Amber",
+     "Patchouli",
+     "Cedar"
+    ]
+   },
+   "counts": {
+    "reviews": 10,
+    "statements": 29,
+    "photos": 5
+   },
+   "submitted": {
+    "by": "Skrwail ",
+    "updated": "11/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Floral": 5,
+      "Powdery": 6,
+      "Creamy": 7,
+      "Synthetic": 7,
+      "Oriental": 9,
+      "Fresh": 10,
+      "Sweet": 25,
+      "Spicy": 17,
+      "Fruity": 14
+     },
+     "votes": 156
+    },
+    "occasion": {
+     "pct": {
+      "Business": 11,
+      "Daily": 16,
+      "Leisure": 20,
+      "Night Out": 27,
+      "Evening": 26
+     },
+     "votes": 127
+    },
+    "season": {
+     "pct": {
+      "Summer": 8,
+      "Spring": 25,
+      "Winter": 32,
+      "Fall": 35
+     },
+     "votes": 111
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 98,
+      "Feminine": 2,
+      "Modern": 91,
+      "Classic": 9
+     },
+     "votes": 74
     }
-  },
-  "fragrantica": null,
-  "scentSummary": "A sweet and spicy fragrance with fruity opening notes of pear and bergamot accented by lavender and mint, leading into a warm heart of cinnamon, clary sage and cumin, and settling into a creamy base of vanilla, amber, patchouli and cedar.",
-  "flags": [
-    "concentration_hint null"
-  ],
-  "issues": "none"
+   },
+   "chart_raw_votes_text": null,
+   "chart_raw_text": "Type Floral 5% Powdery 6% Creamy 7% Synthetic 7% Oriental 9% Fresh 10% Sweet 25% Spicy 17% Fruity 14% 156 Votes Occasion Business 11% Daily 16% Leisure 20% Night Out 27% Evening 26% 127 Votes Season Summer 8% Spring 25% Winter 32% Fall 35% 111 Votes Audience & Style Masculine 98% Feminine 2% Modern 91% Classic 9% 74 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "A sweet and spicy fragrance with fruity opening notes of pear and bergamot accented by lavender and mint, leading into a warm heart of cinnamon, clary sage and cumin, and settling into a creamy base of vanilla, amber, patchouli and cedar.",
+ "flags": [
+  "concentration_hint null"
+ ],
+ "issues": "none"
 }

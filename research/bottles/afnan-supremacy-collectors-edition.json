@@ -1,169 +1,169 @@
 {
-  "id": "afnan-supremacy-collectors-edition",
-  "userName": "Afnan Supremacy Collector's Edition",
-  "identity": {
-    "house": "Afnan Perfumes",
-    "name": "Supremacy Collector's Edition",
-    "year": 2024,
-    "concentration": null,
-    "genderLabel": "for men",
-    "matchCheck": "House 'Afnan Perfumes' and name 'Supremacy Collector's Edition' match exactly. This is the 2024 release, specifically the Collector's Edition variant, not plain Supremacy or other variations."
-  },
-  "candidates": [
+ "id": "afnan-supremacy-collectors-edition",
+ "userName": "Afnan Supremacy Collector's Edition",
+ "identity": {
+  "house": "Afnan Perfumes",
+  "name": "Supremacy Collector's Edition",
+  "year": 2024,
+  "concentration": null,
+  "genderLabel": "for men",
+  "matchCheck": "House 'Afnan Perfumes' and name 'Supremacy Collector's Edition' match exactly. This is the 2024 release, specifically the Collector's Edition variant, not plain Supremacy or other variations."
+ },
+ "candidates": [
+  {
+   "brand": "Afnan Perfumes",
+   "name": "Supremacy Collector's Edition",
+   "year": 2024,
+   "url": "https://www.parfumo.com/Perfumes/Afnan_Perfumes/supremacy-collector-s-edition",
+   "scent_votes": 1387
+  }
+ ],
+ "ambiguity": null,
+ "parfumo": {
+  "url": "https://www.parfumo.com/Perfumes/Afnan_Perfumes/supremacy-collector-s-edition",
+  "retrieved": "2026-10-17",
+  "method": "curl via tools/parfumo_fetch.py (fresh re-fetch 2026-10-17 after verification against saved source)",
+  "data": {
+   "http_status": 200,
+   "url": "https://www.parfumo.com/Perfumes/Afnan_Perfumes/supremacy-collector-s-edition",
+   "fetched": "2026-10-17",
+   "title": "Supremacy Collector's Edition by Afnan Perfumes » Reviews & Perfume Facts",
+   "is_404": false,
+   "no_ratings_text": false,
+   "h1_text": "Supremacy Collector's Edition Afnan Perfumes 2024",
+   "meta_description": "Supremacy | Supremacy Collector's Edition Afnan Perfumes:  Popular  fruity-fresh fragrance ✓ Honest reviews & how it smells like » Discover more",
+   "brand": "Afnan Perfumes",
+   "name": "Supremacy Collector's Edition",
+   "year": 2024,
+   "concentration_hint": null,
+   "gender_label": "for men",
+   "overall": {
+    "avg": 8.2,
+    "votes": 1390
+   },
+   "ratings": {
+    "scent": {
+     "avg": 8.2,
+     "votes": 1390
+    },
+    "longevity": {
+     "avg": 8.4,
+     "votes": 1295
+    },
+    "sillage": {
+     "avg": 8.2,
+     "votes": 1293
+    },
+    "bottle": {
+     "avg": 8.1,
+     "votes": 1270
+    },
+    "value": {
+     "avg": 9.0,
+     "votes": 1262
+    }
+   },
+   "main_accords": [
     {
-      "brand": "Afnan Perfumes",
-      "name": "Supremacy Collector's Edition",
-      "year": 2024,
-      "url": "https://www.parfumo.com/Perfumes/Afnan_Perfumes/supremacy-collector-s-edition",
-      "scent_votes": 1387
+     "accord": "Fruity",
+     "size": "l"
+    },
+    {
+     "accord": "Fresh",
+     "size": "l"
+    },
+    {
+     "accord": "Citrus",
+     "size": "m"
+    },
+    {
+     "accord": "Woody",
+     "size": "m"
+    },
+    {
+     "accord": "Sweet",
+     "size": "m"
     }
-  ],
-  "ambiguity": null,
-  "parfumo": {
-    "url": "https://www.parfumo.com/Perfumes/Afnan_Perfumes/supremacy-collector-s-edition",
-    "retrieved": "2026-10-17",
-    "method": "curl via tools/parfumo_fetch.py",
-    "data": {
-      "http_status": 200,
-      "url": "https://www.parfumo.com/Perfumes/Afnan_Perfumes/supremacy-collector-s-edition",
-      "fetched": "2026-10-17",
-      "title": "Supremacy Collector's Edition by Afnan Perfumes » Reviews & Perfume Facts",
-      "is_404": false,
-      "no_ratings_text": false,
-      "h1_text": "Supremacy Collector's Edition Afnan Perfumes 2024",
-      "meta_description": "Supremacy | Supremacy Collector's Edition Afnan Perfumes:  Popular  fruity-fresh fragrance ✓ Honest reviews & how it smells like » Discover more",
-      "brand": "Afnan Perfumes",
-      "name": "Supremacy Collector's Edition",
-      "year": 2024,
-      "concentration_hint": null,
-      "gender_label": "for men",
-      "overall": {
-        "avg": 8.2,
-        "votes": 1390
-      },
-      "ratings": {
-        "scent": {
-          "avg": 8.2,
-          "votes": 1390
-        },
-        "longevity": {
-          "avg": 8.4,
-          "votes": 1295
-        },
-        "sillage": {
-          "avg": 8.2,
-          "votes": 1293
-        },
-        "bottle": {
-          "avg": 8.1,
-          "votes": 1270
-        },
-        "value": {
-          "avg": 9.0,
-          "votes": 1262
-        }
-      },
-      "main_accords": [
-        {
-          "accord": "Fruity",
-          "size": "l"
-        },
-        {
-          "accord": "Fresh",
-          "size": "l"
-        },
-        {
-          "accord": "Citrus",
-          "size": "m"
-        },
-        {
-          "accord": "Woody",
-          "size": "m"
-        },
-        {
-          "accord": "Sweet",
-          "size": "m"
-        }
-      ],
-      "notes": {
-        "top": [
-          "Pineapple",
-          "Apple",
-          "Bergamot",
-          "White blossoms"
-        ],
-        "heart": [
-          "Birch",
-          "Amber",
-          "Orange blossom"
-        ],
-        "base": [
-          "Ambergris",
-          "Musk",
-          "Oakmoss"
-        ]
-      },
-      "counts": {
-        "reviews": 98,
-        "statements": 285,
-        "photos": 17
-      },
-      "submitted": {
-        "by": "Skrwail ",
-        "updated": "17/10/2026"
-      },
-      "charts": {
-        "type": {
-          "pct": {
-            "Floral": 5,
-            "Smoky": 5,
-            "Spicy": 5,
-            "Sweet": 12,
-            "Woody": 14,
-            "Fruity": 23,
-            "Fresh": 18,
-            "Citrus": 16
-          },
-          "votes": 1039
-        },
-        "occasion": {
-          "pct": {
-            "Sport": 9,
-            "Night Out": 14,
-            "Evening": 15,
-            "Business": 18,
-            "Daily": 24,
-            "Leisure": 20
-          },
-          "votes": 1051
-        },
-        "season": {
-          "pct": {
-            "Winter": 17,
-            "Fall": 27,
-            "Spring": 29,
-            "Summer": 27
-          },
-          "votes": 867
-        },
-        "audience_style": {
-          "pct": {
-            "Masculine": 97,
-            "Feminine": 3,
-            "Modern": 81,
-            "Classic": 19
-          },
-          "votes": 509
-        }
-      },
-      "chart_raw_votes_text": null,
-      "chart_raw_text": "Type Floral 5% Smoky 5% Spicy 5% Sweet 12% Woody 14% Fruity 23% Fresh 18% Citrus 16% 1,039 Votes Occasion Sport 9% Night Out 14% Evening 15% Business 18% Daily 24% Leisure 20% 1,051 Votes Season Winter 17% Fall 27% Spring 29% Summer 27% 867 Votes Audience & Style Masculine 97% Feminine 3% Modern 81% Classic 19% 509 Votes"
+   ],
+   "notes": {
+    "top": [
+     "Pineapple",
+     "Apple",
+     "Bergamot",
+     "White blossoms"
+    ],
+    "heart": [
+     "Birch",
+     "Amber",
+     "Orange blossom"
+    ],
+    "base": [
+     "Ambergris",
+     "Musk",
+     "Oakmoss"
+    ]
+   },
+   "counts": {
+    "reviews": 98,
+    "statements": 285,
+    "photos": 17
+   },
+   "submitted": {
+    "by": "Skrwail ",
+    "updated": "17/10/2026"
+   },
+   "charts": {
+    "type": {
+     "pct": {
+      "Floral": 5,
+      "Smoky": 5,
+      "Spicy": 5,
+      "Sweet": 12,
+      "Woody": 14,
+      "Fruity": 23,
+      "Fresh": 18,
+      "Citrus": 16
+     },
+     "votes": 1039
+    },
+    "occasion": {
+     "pct": {
+      "Sport": 9,
+      "Night Out": 14,
+      "Evening": 15,
+      "Business": 18,
+      "Daily": 24,
+      "Leisure": 20
+     },
+     "votes": 1051
+    },
+    "season": {
+     "pct": {
+      "Winter": 17,
+      "Fall": 27,
+      "Spring": 29,
+      "Summer": 27
+     },
+     "votes": 867
+    },
+    "audience_style": {
+     "pct": {
+      "Masculine": 97,
+      "Feminine": 3,
+      "Modern": 81,
+      "Classic": 19
+     },
+     "votes": 509
     }
-  },
-  "fragrantica": null,
-  "scentSummary": "A fruity and fresh fragrance opening with pineapple, apple, and bergamot, flowing to amber and orange blossom in the heart, grounded by ambergris, musk, and oakmoss with subtle woody undertones.",
-  "flags": [
-    "concentration_hint: null"
-  ],
-  "issues": "none"
+   },
+   "chart_raw_votes_text": null,
+   "chart_raw_text": "Type Floral 5% Smoky 5% Spicy 5% Sweet 12% Woody 14% Fruity 23% Fresh 18% Citrus 16% 1,039 Votes Occasion Sport 9% Night Out 14% Evening 15% Business 18% Daily 24% Leisure 20% 1,051 Votes Season Winter 17% Fall 27% Spring 29% Summer 27% 867 Votes Audience & Style Masculine 97% Feminine 3% Modern 81% Classic 19% 509 Votes"
+  }
+ },
+ "fragrantica": null,
+ "scentSummary": "A fruity and fresh fragrance opening with pineapple, apple, and bergamot, flowing to amber and orange blossom in the heart, grounded by ambergris, musk, and oakmoss with subtle woody undertones.",
+ "flags": [
+  "concentration_hint: null"
+ ],
+ "issues": "none"
 }
